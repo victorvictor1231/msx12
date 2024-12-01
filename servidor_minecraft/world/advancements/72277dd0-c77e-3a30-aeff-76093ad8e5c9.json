@@ -9145,5 +9145,11 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_cyclops": {
+    "criteria": {
+      "killed_fire_dragon": "2024-12-01 02:48:50 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
