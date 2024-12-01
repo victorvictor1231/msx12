@@ -1,18 +1,18 @@
-[00:50:39] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
-[00:50:39] [ForkJoinPool-1-worker-2/WARN]: The mod "find" contains invalid entries in its mod json:
+[02:30:45] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[02:30:45] [ForkJoinPool-1-worker-4/WARN]: The mod "find" contains invalid entries in its mod json:
 - Unsupported root entry "LICENSE" at line 11 column 12
-[00:50:39] [ForkJoinPool-1-worker-4/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+[02:30:45] [ForkJoinPool-1-worker-2/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
 - Unsupported root entry "credits" at line 12 column 12
-[00:50:39] [ForkJoinPool-1-worker-3/WARN]: Mod mr_reds_morestructures uses the version 1.0.8R which isn't compatible with Loader's extended semantic version format (Could not parse version number component '8R'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[00:50:39] [ForkJoinPool-1-worker-4/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[00:50:39] [ForkJoinPool-1-worker-4/WARN]: Mod ultris_mr uses the version 5.6.9c which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[00:50:39] [ForkJoinPool-1-worker-3/WARN]: Mod incapacitated uses the version 1.9.1LTS which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1LTS'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[00:50:39] [ForkJoinPool-1-worker-2/WARN]: Mod mr_stellarity uses the version 2.0e which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0e'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[00:50:39] [ForkJoinPool-1-worker-2/WARN]: Mod tectonic uses the version 2.4.1b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[00:50:39] [main/WARN]: Warnings were found!
+[02:30:45] [ForkJoinPool-1-worker-4/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:30:45] [ForkJoinPool-1-worker-3/WARN]: Mod mr_reds_morestructures uses the version 1.0.8R which isn't compatible with Loader's extended semantic version format (Could not parse version number component '8R'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:30:45] [ForkJoinPool-1-worker-4/WARN]: Mod ultris_mr uses the version 5.6.9c which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:30:45] [ForkJoinPool-1-worker-2/WARN]: Mod incapacitated uses the version 1.9.1LTS which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1LTS'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:30:45] [ForkJoinPool-1-worker-1/WARN]: Mod mr_stellarity uses the version 2.0e which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0e'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:30:45] [ForkJoinPool-1-worker-1/WARN]: Mod tectonic uses the version 2.4.1b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:30:45] [main/WARN]: Warnings were found!
  - Mod '[Let's Do] Farm & Charm' (farm_and_charm) 1.0.4 conflicts with any version before 2.0.0 of mod '[Let's Do] Candlelight' (candlelight), which is present with the following versions: 1.2.13!
 	 - While this won't prevent you from starting the game, the developer(s) of mod '[Let's Do] Farm & Charm' (farm_and_charm) have found that this combination may cause issues. You should remove one of the mods or check for updates that resolve the issue.
-[00:50:39] [main/INFO]: Loading 278 mods:
+[02:30:45] [main/INFO]: Loading 278 mods:
 	- amendments 1.20-1.2.12
 	- animal_feeding_trough 1.1.0+1.20.1
 	- antique_atlas 2.10.0+1.20
@@ -322,147 +322,149 @@
 	        |-- jankson 6.0.0+j1.2.3
 	        \-- libninepatch 1.2.0
 	- yungsapi 1.20-Fabric-4.0.6
-[00:50:40] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/msx12/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:50:40] [main/INFO]: Compatibility level set to JAVA_17
-[00:50:40] [main/WARN]: Reference map 'CerbonsAPI-Fabric-1.20.1-fabric-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:50:40] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:50:40] [main/WARN]: Reference map 'ctimber-1.4.0+1.20.1-refmap.json' for ctimber.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:50:40] [main/WARN]: Reference map 'goated-fabric-refmap.json' for goated.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:50:40] [main/WARN]: Reference map 'horsearmorstandmod-refmap.json' for horsearmorstandmod.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:50:41] [main/INFO]: Loaded configuration file for ModernFix 5.19.5+mc1.20.1: 61 options available, 0 override(s) found
-[00:50:41] [main/INFO]: Applying Nashorn fix
-[00:50:41] [main/WARN]: Reference map 'philipsruins-refmap.json' for philipsruins.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:50:41] [main/WARN]: Reference map 'rechiseled.mixins.refmap.json' for rechiseled.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:50:41] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:50:41] [main/WARN]: Reference map 'torch_hit.refmap.json' for torch_hit.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:50:41] [main/WARN]: Reference map 'torch_hit.refmap.json' for torch_hit.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:50:41] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[00:50:41] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[00:50:41] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
-[00:50:42] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
-[00:50:42] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
-[00:50:42] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
-[00:50:42] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
-[00:50:42] [main/WARN]: Error loading class: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket (java.lang.ClassNotFoundException: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket)
-[00:50:42] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[00:50:42] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
-[00:50:42] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
-[00:50:42] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[00:50:44] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$dad000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[00:50:46] [main/WARN]: @Final field field_17378:Lnet/minecraft/class_3913; in better_beacons-common.mixins.json:block_entity.BeaconBlockEntityMixin from mod better_beacons should be final
-[00:50:46] [main/WARN]: @Final field field_11801:[[Lnet/minecraft/class_1291; in better_beacons-common.mixins.json:block_entity.BeaconBlockEntityMixin from mod better_beacons should be final
-[00:50:46] [main/WARN]: @Final field field_11798:Ljava/util/Set; in better_beacons-common.mixins.json:block_entity.BeaconBlockEntityMixin from mod better_beacons should be final
-[00:50:46] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on better_beacons-common.mixins.json:block_entity.BeaconBlockEntityMixin from mod better_beacons::handler$zil000$better_beacons$bb_applyTertiaryEffects exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[00:50:46] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin from mod palladiumcore::handler$cpe001$palladiumcore$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[00:50:48] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[00:50:49] [main/INFO]: Vanilla bootstrap took 5770 milliseconds
-[00:50:49] [main/INFO]: fabric loader environment detected
-[00:50:49] [main/INFO]: Reflections took 4 ms to scan 0 urls, producing 0 keys and 0 values
-[00:50:50] [main/INFO]: Loaded config amendments-common.json
-[00:50:50] [main/INFO]: [Animal Feeding Trough] Load Complete! Enjoy :D
-[00:50:50] [main/INFO]: [STDOUT]: Hello from Epic Knights: Antique Legacy init!
-[00:50:54] [main/INFO]: Constructing common components for barteringstation:main
-[00:50:54] [main/INFO]: Constructing common components for bettertridents:main
-[00:50:54] [main/INFO]: Loading common config for bettertridents
-[00:50:54] [main/INFO]: Common init
-[00:50:54] [main/INFO]: Registering C2S receiver with id brewery:alcohol_sync_request
-[00:50:54] [main/INFO]: Registering C2S receiver with id brewery:drink_alcohol
-[00:50:54] [main/INFO]: Registering C2S receiver with id camping:open_backpack
-[00:50:54] [main/INFO]: Registering C2S receiver with id camping:open_ender_chest
-[00:50:54] [main/INFO]: Registering C2S receiver with id camping:open_ender_chest
-[00:50:54] [main/INFO]: Registering C2S receiver with id candlelight:typewriter_sync
-[00:50:54] [main/INFO]: Registering C2S receiver with id candlelight:sign_note
-[00:50:54] [main/INFO]: Loading Collective version 7.87.
-[00:50:54] [main/INFO]: Loaded C2B lib.
-[00:50:54] [main/INFO]: Hello Fabric world!
-[00:50:54] [main/INFO]: [CopperHopper] Configuration loaded: {}
-[00:50:54] [main/INFO]: [CopperHopper] Initialized.
-[00:50:57] [main/INFO]: Bypassed Mojang DFU
-[00:50:57] [main/INFO]: Instantiating Mojang DFU
-[00:50:57] [main/ERROR]: No data fixer registered for crystallized_amber
-[00:50:57] [main/INFO]: Constructing common components for diagonalblocks:main
-[00:50:57] [main/INFO]: Constructing common components for diagonalfences:main
-[00:50:58] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 421ms
-[00:50:58] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 86ms
-[00:50:58] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 75ms
-[00:50:58] [main/INFO]: Constructing common components for diagonalwindows:main
-[00:50:58] [main/INFO]: Constructing shapes for DiagonalGlassPaneBlock[NodeWidth=1.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 18ms
-[00:50:59] [main/INFO]: Hello Fabric world!
-[00:50:59] [main/INFO]: Registering Item Groups for dustydecorations
-[00:50:59] [main/INFO]: Registering Mod items for dustydecorations
-[00:50:59] [main/INFO]: Registering ModBlocks for dustydecorations
-[00:50:59] [main/INFO]: Constructing common components for easyanvils:main
-[00:50:59] [main/INFO]: Constructing common components for easymagic:main
-[00:50:59] [main/INFO]: Constructing common components for enchantinginfuser:main
-[00:50:59] [main/INFO]: Initializing EugenesHorseWhistle
-[00:51:00] [main/INFO]: Registering Particles for frozenlib
-[00:51:00] [main/INFO]: Loading config FrozenLibConfig from frozenlib
-[00:51:00] [main/INFO]: Saving config FrozenLibConfig from frozenlib
-[00:51:00] [main/INFO]: Initializing HealingMod
-[00:51:00] [main/INFO]: Initialize horsearmorstandmod
-[00:51:00] [main/INFO]: Registering Mod Items for horsearmorstandmod
-[00:51:00] [main/INFO]: Registering Mod Entities forhorsearmorstandmod
-[00:51:00] [main/INFO]: Horse Buff Initialized
-[00:51:00] [main/INFO]: Constructing common components for horseexpert:main
-[00:51:00] [main/INFO]: Ice And Fire common config version match.
-[00:51:01] [main/INFO]: Skipping mod integration for Clumps
-[00:51:01] [main/INFO]: 1 Jupiter entrypoint(s) detected: jupiter:jupiter
-[00:51:01] [main/INFO]: Initialize mod Library Ferret
-[00:51:01] [main/INFO]: Initialized mod Library Ferret
-[00:51:01] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
-[00:51:01] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_lance_collision
-[00:51:01] [main/INFO]: [STDOUT]: Hello from Epic Knights Addon init!
-[00:51:01] [main/INFO]: Definitely not up to no good
-[00:51:01] [main/INFO]: Giving mobs a fresh coat of paint...
-[00:51:01] [main/INFO]: Registering Item Groups for onlyhammersandexcavators
-[00:51:01] [main/INFO]: as a based person once said: it doesn't have to be balanced unless you're making a pvp focused mod
-[00:51:02] [main/INFO]: Constructing common components for puzzleslib:main
-[00:51:02] [main/INFO]: [Fabric Seasons] Trying to read config file...
-[00:51:02] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
-[00:51:02] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
-[00:51:02] [main/INFO]: Loading config SimpleCopperPipesConfig from simple_copper_pipes
-[00:51:02] [main/INFO]: Saving config SimpleCopperPipesConfig from simple_copper_pipes
-[00:51:02] [main/INFO]: [STDOUT]: Hello from Epic Knights Addon init!
-[00:51:02] [main/INFO]: Config initialized!
-[00:51:02] [main/INFO]: Successfully initialized Geckolib!
-[00:51:03] [main/INFO]: Successfully registered SoulsWeapons content!
-[00:51:03] [main/INFO]: Successfully registered built-in 2D model resourcepack!
-[00:51:03] [main/INFO]: Successfully registered built-in Legacy 2D Models resourcepack!
-[00:51:03] [main/INFO]: Successfully registered built-in Legacy 3D Models resourcepack!
-[00:51:03] [main/INFO]: Successfully registered built-in Fresh Animations Compat. resourcepack!
-[00:51:03] [main/INFO]: Initializing done, time taken: 193ms
-[00:51:03] [Thread-4/INFO]: Starting to fetch sponsor list.
-[00:51:03] [main/INFO]: Loaded config supplementaries-common.json
-[00:51:03] [Thread-4/INFO]: Successfully fetch sponsor list.
-[00:51:03] [main/INFO]: [Surveyor] is not a map mod
-[00:51:03] [main/INFO]: Sushi of the day: Red dragon roll
-[00:51:03] [main/INFO]: !?
-[00:51:03] [main/INFO]: Registering Mod Items for torchesntrinkets
-[00:51:03] [main/INFO]: Registering Item Groups fortorchesntrinkets
-[00:51:03] [main/INFO]: [STDOUT]: Initialize WeaponMaster
-[00:51:03] [main/INFO]: Reflections took 50 ms to scan 1 urls, producing 1 keys and 4 values
-[00:51:03] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
-[00:51:04] [main/INFO]: Initialized block sets in 15ms
-[00:51:04] [main/INFO]: Initialized color sets in 68ms
-[00:51:04] [main/INFO]: Finished mod setup in: [22, 0, 0, 0, 0, 0, 13, 5, 1] ms
-[00:51:04] [main/INFO]: Loading Open Parties and Claims!
-[00:51:05] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:51:05] [main/INFO]: Generated runtime SERVER_DATA for pack Goated Generated Pack (goated) in: 5 ms
-[00:51:05] [main/INFO]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 26 ms
-[00:51:05] [main/ERROR]: Invalid path in mod resource-pack mr_stellarity: fokastudio:worldgen/biome/README.md, ignoring
-[00:51:06] [main/INFO]: Structure placement for `awesomedungeonnether:nth_absi_palace/start_pool`: { spacing: 50, separation: 25, salt: 19482856, useValueFromConfiguration: true}
-[00:51:06] [main/INFO]: Structure placement for `awesomedungeonnether:nth_accum_quad/start_pool`: { spacing: 50, separation: 25, salt: 28482856, useValueFromConfiguration: true}
-[00:51:06] [main/INFO]: Structure placement for `awesomedungeonnether:nth_blaze_tower/start_pool`: { spacing: 50, separation: 25, salt: 37482856, useValueFromConfiguration: true}
-[00:51:06] [main/INFO]: Structure placement for `awesomedungeonnether:nth_center_square/start_pool`: { spacing: 50, separation: 25, salt: 46482856, useValueFromConfiguration: true}
-[00:51:06] [main/INFO]: Structure placement for `awesomedungeonnether:nth_giant_crimson_tree/start_pool`: { spacing: 50, separation: 25, salt: 55482856, useValueFromConfiguration: true}
-[00:51:06] [main/INFO]: Structure placement for `awesomedungeonnether:nth_obsi_house/start_pool`: { spacing: 50, separation: 25, salt: 64482856, useValueFromConfiguration: true}
-[00:51:07] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[00:51:07] [main/INFO]: Adding serverside commands..
-[00:51:08] [Worker-Main-1/ERROR]: Couldn't load tag copper-horns:screaming_copper_horns as it is missing following references: copper-horns:sweet_copper_horn (from fabric), copper-horns:fearless_copper_horn (from fabric), copper-horns:secret_copper_horn (from fabric), copper-horns:fresh_copper_horn (from fabric)
-[00:51:08] [Worker-Main-1/ERROR]: Couldn't load tag copper-horns:regular_copper_horns as it is missing following references: copper-horns:great_copper_horn (from fabric), copper-horns:old_copper_horn (from fabric), copper-horns:pure_copper_horn (from fabric), copper-horns:dry_copper_horn (from fabric), copper-horns:mumble_copper_horn (from fabric), copper-horns:clear_copper_horn (from fabric)
-[00:51:08] [Worker-Main-1/ERROR]: Couldn't load tag copper-horns:copper_horns as it is missing following references: #copper-horns:regular_copper_horns (from fabric), #copper-horns:screaming_copper_horns (from fabric)
-[00:51:08] [Worker-Main-3/ERROR]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" ac","aca","ba "],"key":{"a":{"tag":"c:steel_nuggets"},"b":{"tag":"c:wooden_rods"},"c":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:barbedclub","count":1}}]
-[00:51:08] [Worker-Main-3/ERROR]: Couldn't read tag list c:barbedclub from c:tags/items/barbedclub.json in data pack fabric
+[02:30:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/msx12/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[02:30:46] [main/INFO]: Compatibility level set to JAVA_17
+[02:30:46] [main/WARN]: Reference map 'CerbonsAPI-Fabric-1.20.1-fabric-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:46] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:46] [main/WARN]: Reference map 'ctimber-1.4.0+1.20.1-refmap.json' for ctimber.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:46] [main/WARN]: Reference map 'goated-fabric-refmap.json' for goated.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:46] [main/WARN]: Reference map 'horsearmorstandmod-refmap.json' for horsearmorstandmod.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:46] [main/INFO]: Loaded configuration file for ModernFix 5.19.5+mc1.20.1: 61 options available, 0 override(s) found
+[02:30:46] [main/INFO]: Applying Nashorn fix
+[02:30:46] [main/WARN]: Reference map 'philipsruins-refmap.json' for philipsruins.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:47] [main/WARN]: Reference map 'rechiseled.mixins.refmap.json' for rechiseled.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:47] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:47] [main/WARN]: Reference map 'torch_hit.refmap.json' for torch_hit.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:47] [main/WARN]: Reference map 'torch_hit.refmap.json' for torch_hit.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:30:47] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[02:30:47] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[02:30:48] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[02:30:48] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
+[02:30:48] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
+[02:30:48] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
+[02:30:48] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
+[02:30:48] [main/WARN]: Error loading class: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket (java.lang.ClassNotFoundException: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket)
+[02:30:48] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[02:30:48] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[02:30:48] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[02:30:48] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[02:30:50] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$dad000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[02:30:52] [main/WARN]: @Final field field_17378:Lnet/minecraft/class_3913; in better_beacons-common.mixins.json:block_entity.BeaconBlockEntityMixin from mod better_beacons should be final
+[02:30:52] [main/WARN]: @Final field field_11801:[[Lnet/minecraft/class_1291; in better_beacons-common.mixins.json:block_entity.BeaconBlockEntityMixin from mod better_beacons should be final
+[02:30:52] [main/WARN]: @Final field field_11798:Ljava/util/Set; in better_beacons-common.mixins.json:block_entity.BeaconBlockEntityMixin from mod better_beacons should be final
+[02:30:52] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on better_beacons-common.mixins.json:block_entity.BeaconBlockEntityMixin from mod better_beacons::handler$zil000$better_beacons$bb_applyTertiaryEffects exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[02:30:53] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin from mod palladiumcore::handler$cpe001$palladiumcore$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[02:30:55] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[02:30:55] [main/INFO]: Vanilla bootstrap took 6495 milliseconds
+[02:30:56] [main/INFO]: fabric loader environment detected
+[02:30:56] [main/INFO]: Reflections took 6 ms to scan 0 urls, producing 0 keys and 0 values
+[02:30:57] [main/INFO]: Loaded config amendments-common.json
+[02:30:57] [main/INFO]: [Animal Feeding Trough] Load Complete! Enjoy :D
+[02:30:57] [main/INFO]: [STDOUT]: Hello from Epic Knights: Antique Legacy init!
+[02:31:01] [main/INFO]: Constructing common components for barteringstation:main
+[02:31:01] [main/INFO]: Constructing common components for bettertridents:main
+[02:31:01] [main/INFO]: Loading common config for bettertridents
+[02:31:01] [Thread-2/INFO]: Reloading common config for bettertridents
+[02:31:01] [Thread-2/INFO]: Reloading common config for bettertridents
+[02:31:01] [main/INFO]: Common init
+[02:31:02] [main/INFO]: Registering C2S receiver with id brewery:alcohol_sync_request
+[02:31:02] [main/INFO]: Registering C2S receiver with id brewery:drink_alcohol
+[02:31:02] [main/INFO]: Registering C2S receiver with id camping:open_backpack
+[02:31:02] [main/INFO]: Registering C2S receiver with id camping:open_ender_chest
+[02:31:02] [main/INFO]: Registering C2S receiver with id camping:open_ender_chest
+[02:31:02] [main/INFO]: Registering C2S receiver with id candlelight:typewriter_sync
+[02:31:02] [main/INFO]: Registering C2S receiver with id candlelight:sign_note
+[02:31:02] [main/INFO]: Loading Collective version 7.87.
+[02:31:02] [main/INFO]: Loaded C2B lib.
+[02:31:02] [main/INFO]: Hello Fabric world!
+[02:31:02] [main/INFO]: [CopperHopper] Configuration loaded: {}
+[02:31:02] [main/INFO]: [CopperHopper] Initialized.
+[02:31:04] [main/INFO]: Bypassed Mojang DFU
+[02:31:04] [main/INFO]: Instantiating Mojang DFU
+[02:31:05] [main/ERROR]: No data fixer registered for crystallized_amber
+[02:31:05] [main/INFO]: Constructing common components for diagonalblocks:main
+[02:31:05] [main/INFO]: Constructing common components for diagonalfences:main
+[02:31:05] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 68ms
+[02:31:05] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 45ms
+[02:31:05] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 65ms
+[02:31:05] [main/INFO]: Constructing common components for diagonalwindows:main
+[02:31:05] [main/INFO]: Constructing shapes for DiagonalStainedGlassPaneBlock[NodeWidth=1.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 16ms
+[02:31:06] [main/INFO]: Hello Fabric world!
+[02:31:06] [main/INFO]: Registering Item Groups for dustydecorations
+[02:31:06] [main/INFO]: Registering Mod items for dustydecorations
+[02:31:06] [main/INFO]: Registering ModBlocks for dustydecorations
+[02:31:06] [main/INFO]: Constructing common components for easyanvils:main
+[02:31:06] [main/INFO]: Constructing common components for easymagic:main
+[02:31:06] [main/INFO]: Constructing common components for enchantinginfuser:main
+[02:31:06] [main/INFO]: Initializing EugenesHorseWhistle
+[02:31:07] [main/INFO]: Registering Particles for frozenlib
+[02:31:07] [main/INFO]: Loading config FrozenLibConfig from frozenlib
+[02:31:07] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[02:31:07] [main/INFO]: Initializing HealingMod
+[02:31:08] [main/INFO]: Initialize horsearmorstandmod
+[02:31:08] [main/INFO]: Registering Mod Items for horsearmorstandmod
+[02:31:08] [main/INFO]: Registering Mod Entities forhorsearmorstandmod
+[02:31:08] [main/INFO]: Horse Buff Initialized
+[02:31:08] [main/INFO]: Constructing common components for horseexpert:main
+[02:31:08] [main/INFO]: Ice And Fire common config version match.
+[02:31:08] [main/INFO]: Skipping mod integration for Clumps
+[02:31:08] [main/INFO]: 1 Jupiter entrypoint(s) detected: jupiter:jupiter
+[02:31:08] [main/INFO]: Initialize mod Library Ferret
+[02:31:08] [main/INFO]: Initialized mod Library Ferret
+[02:31:08] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[02:31:08] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[02:31:08] [main/INFO]: [STDOUT]: Hello from Epic Knights Addon init!
+[02:31:08] [main/INFO]: Definitely not up to no good
+[02:31:08] [main/INFO]: Giving mobs a fresh coat of paint...
+[02:31:09] [main/INFO]: Registering Item Groups for onlyhammersandexcavators
+[02:31:09] [main/INFO]: This custom packet isn't supported by Gadget - Add support via DrawPacketHandler.EVENT
+[02:31:09] [main/INFO]: Constructing common components for puzzleslib:main
+[02:31:09] [main/INFO]: [Fabric Seasons] Trying to read config file...
+[02:31:09] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
+[02:31:09] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
+[02:31:09] [main/INFO]: Loading config SimpleCopperPipesConfig from simple_copper_pipes
+[02:31:09] [main/INFO]: Saving config SimpleCopperPipesConfig from simple_copper_pipes
+[02:31:09] [main/INFO]: [STDOUT]: Hello from Epic Knights Addon init!
+[02:31:10] [main/INFO]: Config initialized!
+[02:31:10] [main/INFO]: Successfully initialized Geckolib!
+[02:31:10] [main/INFO]: Successfully registered SoulsWeapons content!
+[02:31:10] [main/INFO]: Successfully registered built-in 2D model resourcepack!
+[02:31:10] [main/INFO]: Successfully registered built-in Legacy 2D Models resourcepack!
+[02:31:10] [main/INFO]: Successfully registered built-in Legacy 3D Models resourcepack!
+[02:31:10] [main/INFO]: Successfully registered built-in Fresh Animations Compat. resourcepack!
+[02:31:10] [main/INFO]: Initializing done, time taken: 303ms
+[02:31:10] [Thread-4/INFO]: Starting to fetch sponsor list.
+[02:31:10] [main/INFO]: Loaded config supplementaries-common.json
+[02:31:10] [Thread-4/INFO]: Successfully fetch sponsor list.
+[02:31:10] [main/INFO]: [Surveyor] is not a map mod
+[02:31:10] [main/INFO]: Sushi of the day: Sasamaki
+[02:31:10] [main/INFO]: !?
+[02:31:10] [main/INFO]: Registering Mod Items for torchesntrinkets
+[02:31:10] [main/INFO]: Registering Item Groups fortorchesntrinkets
+[02:31:11] [main/INFO]: [STDOUT]: Initialize WeaponMaster
+[02:31:11] [main/INFO]: Reflections took 224 ms to scan 1 urls, producing 1 keys and 4 values
+[02:31:11] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 4 values
+[02:31:12] [main/INFO]: Initialized block sets in 18ms
+[02:31:12] [main/INFO]: Initialized color sets in 62ms
+[02:31:12] [main/INFO]: Finished mod setup in: [22, 0, 0, 0, 0, 0, 13, 5, 1] ms
+[02:31:12] [main/INFO]: Loading Open Parties and Claims!
+[02:31:12] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:31:13] [main/INFO]: Generated runtime SERVER_DATA for pack Goated Generated Pack (goated) in: 5 ms
+[02:31:13] [main/INFO]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 27 ms
+[02:31:13] [main/ERROR]: Invalid path in mod resource-pack mr_stellarity: fokastudio:worldgen/biome/README.md, ignoring
+[02:31:14] [main/INFO]: Structure placement for `awesomedungeonnether:nth_absi_palace/start_pool`: { spacing: 50, separation: 25, salt: 19482856, useValueFromConfiguration: true}
+[02:31:14] [main/INFO]: Structure placement for `awesomedungeonnether:nth_accum_quad/start_pool`: { spacing: 50, separation: 25, salt: 28482856, useValueFromConfiguration: true}
+[02:31:14] [main/INFO]: Structure placement for `awesomedungeonnether:nth_blaze_tower/start_pool`: { spacing: 50, separation: 25, salt: 37482856, useValueFromConfiguration: true}
+[02:31:14] [main/INFO]: Structure placement for `awesomedungeonnether:nth_center_square/start_pool`: { spacing: 50, separation: 25, salt: 46482856, useValueFromConfiguration: true}
+[02:31:14] [main/INFO]: Structure placement for `awesomedungeonnether:nth_giant_crimson_tree/start_pool`: { spacing: 50, separation: 25, salt: 55482856, useValueFromConfiguration: true}
+[02:31:14] [main/INFO]: Structure placement for `awesomedungeonnether:nth_obsi_house/start_pool`: { spacing: 50, separation: 25, salt: 64482856, useValueFromConfiguration: true}
+[02:31:14] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[02:31:15] [main/INFO]: Adding serverside commands..
+[02:31:15] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:screaming_goat_horns as it is missing following references: minecraft:admire_goat_horn (from vanilla), minecraft:call_goat_horn (from vanilla), minecraft:yearn_goat_horn (from vanilla), minecraft:dream_goat_horn (from vanilla)
+[02:31:15] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:regular_goat_horns as it is missing following references: minecraft:ponder_goat_horn (from vanilla), minecraft:sing_goat_horn (from vanilla), minecraft:seek_goat_horn (from vanilla), minecraft:feel_goat_horn (from vanilla)
+[02:31:15] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:goat_horns as it is missing following references: #minecraft:regular_goat_horns (from vanilla), #minecraft:screaming_goat_horns (from vanilla)
+[02:31:15] [Worker-Main-3/ERROR]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" ac","aca","ba "],"key":{"a":{"tag":"c:steel_nuggets"},"b":{"tag":"c:wooden_rods"},"c":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:barbedclub","count":1}}]
+[02:31:15] [Worker-Main-3/ERROR]: Couldn't read tag list c:barbedclub from c:tags/items/barbedclub.json in data pack fabric
 java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" ac","aca","ba "],"key":{"a":{"tag":"c:steel_nuggets"},"b":{"tag":"c:wooden_rods"},"c":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:barbedclub","count":1}}]
 	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
 	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
@@ -477,8 +479,8 @@ java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[00:51:08] [Worker-Main-3/ERROR]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":["ccc","cbc"," a "],"key":{"a":{"tag":"magistuarmory:hilts"},"b":{"tag":"c:wooden_rods"},"c":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:blacksmith_hammer","count":1}}]
-[00:51:08] [Worker-Main-3/ERROR]: Couldn't read tag list c:blacksmith_hammer from c:tags/items/blacksmith_hammer.json in data pack fabric
+[02:31:15] [Worker-Main-3/ERROR]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":["ccc","cbc"," a "],"key":{"a":{"tag":"magistuarmory:hilts"},"b":{"tag":"c:wooden_rods"},"c":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:blacksmith_hammer","count":1}}]
+[02:31:15] [Worker-Main-3/ERROR]: Couldn't read tag list c:blacksmith_hammer from c:tags/items/blacksmith_hammer.json in data pack fabric
 java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":["ccc","cbc"," a "],"key":{"a":{"tag":"magistuarmory:hilts"},"b":{"tag":"c:wooden_rods"},"c":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:blacksmith_hammer","count":1}}]
 	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
 	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
@@ -493,8 +495,11 @@ java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[00:51:08] [Worker-Main-3/ERROR]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":["bab"," a "," a "],"key":{"a":{"tag":"c:wooden_rods"},"b":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:pitchfork","count":1}}]
-[00:51:08] [Worker-Main-3/ERROR]: Couldn't read tag list c:pitchfork from c:tags/items/pitchfork.json in data pack fabric
+[02:31:16] [Worker-Main-2/ERROR]: Couldn't load tag copper-horns:screaming_copper_horns as it is missing following references: copper-horns:sweet_copper_horn (from fabric), copper-horns:fearless_copper_horn (from fabric), copper-horns:secret_copper_horn (from fabric), copper-horns:fresh_copper_horn (from fabric)
+[02:31:16] [Worker-Main-2/ERROR]: Couldn't load tag copper-horns:regular_copper_horns as it is missing following references: copper-horns:great_copper_horn (from fabric), copper-horns:old_copper_horn (from fabric), copper-horns:pure_copper_horn (from fabric), copper-horns:dry_copper_horn (from fabric), copper-horns:mumble_copper_horn (from fabric), copper-horns:clear_copper_horn (from fabric)
+[02:31:16] [Worker-Main-2/ERROR]: Couldn't load tag copper-horns:copper_horns as it is missing following references: #copper-horns:regular_copper_horns (from fabric), #copper-horns:screaming_copper_horns (from fabric)
+[02:31:16] [Worker-Main-3/ERROR]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":["bab"," a "," a "],"key":{"a":{"tag":"c:wooden_rods"},"b":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:pitchfork","count":1}}]
+[02:31:16] [Worker-Main-3/ERROR]: Couldn't read tag list c:pitchfork from c:tags/items/pitchfork.json in data pack fabric
 java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":["bab"," a "," a "],"key":{"a":{"tag":"c:wooden_rods"},"b":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:pitchfork","count":1}}]
 	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
 	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
@@ -509,15 +514,12 @@ java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[00:51:08] [Worker-Main-3/ERROR]: Couldn't load tag forge:grapes as it is missing following references: minecraft:red_grape (from fabric), minecraft:white_grape (from fabric), minecraft:savanna_grapes_red (from fabric), minecraft:savanna_grapes_white (from fabric), minecraft:taiga_grapes_red (from fabric), minecraft:taiga_grapes_white (from fabric), minecraft:jungle_grapes_red (from fabric), minecraft:jungle_grapes_white (from fabric)
-[00:51:08] [Worker-Main-3/ERROR]: Couldn't load tag magistuarmory:darkening_templates as it is missing following references: magistuarmoryaddon:darkening_template (from fabric)
-[00:51:08] [Worker-Main-3/ERROR]: Couldn't load tag c:grapes as it is missing following references: minecraft:red_grape (from fabric), minecraft:white_grape (from fabric), minecraft:savanna_grapes_red (from fabric), minecraft:savanna_grapes_white (from fabric), minecraft:taiga_grapes_red (from fabric), minecraft:taiga_grapes_white (from fabric), minecraft:jungle_grapes_red (from fabric), minecraft:jungle_grapes_white (from fabric)
-[00:51:08] [Worker-Main-3/ERROR]: Couldn't load tag magistuarmory:gilding_templates as it is missing following references: magistuarmoryaddon:gilding_template (from fabric)
-[00:51:08] [Worker-Main-3/ERROR]: Couldn't load tag c:silver_nuggets as it is missing following references: magistuarmoryaddon:silver_nugget (from fabric)
-[00:51:08] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:screaming_goat_horns as it is missing following references: minecraft:admire_goat_horn (from vanilla), minecraft:call_goat_horn (from vanilla), minecraft:yearn_goat_horn (from vanilla), minecraft:dream_goat_horn (from vanilla)
-[00:51:08] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:regular_goat_horns as it is missing following references: minecraft:ponder_goat_horn (from vanilla), minecraft:sing_goat_horn (from vanilla), minecraft:seek_goat_horn (from vanilla), minecraft:feel_goat_horn (from vanilla)
-[00:51:08] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:goat_horns as it is missing following references: #minecraft:regular_goat_horns (from vanilla), #minecraft:screaming_goat_horns (from vanilla)
-[00:51:10] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:dustydecorations:blocks/pot
+[02:31:16] [Worker-Main-3/ERROR]: Couldn't load tag forge:grapes as it is missing following references: minecraft:red_grape (from fabric), minecraft:white_grape (from fabric), minecraft:savanna_grapes_red (from fabric), minecraft:savanna_grapes_white (from fabric), minecraft:taiga_grapes_red (from fabric), minecraft:taiga_grapes_white (from fabric), minecraft:jungle_grapes_red (from fabric), minecraft:jungle_grapes_white (from fabric)
+[02:31:16] [Worker-Main-3/ERROR]: Couldn't load tag magistuarmory:darkening_templates as it is missing following references: magistuarmoryaddon:darkening_template (from fabric)
+[02:31:16] [Worker-Main-3/ERROR]: Couldn't load tag c:grapes as it is missing following references: minecraft:red_grape (from fabric), minecraft:white_grape (from fabric), minecraft:savanna_grapes_red (from fabric), minecraft:savanna_grapes_white (from fabric), minecraft:taiga_grapes_red (from fabric), minecraft:taiga_grapes_white (from fabric), minecraft:jungle_grapes_red (from fabric), minecraft:jungle_grapes_white (from fabric)
+[02:31:16] [Worker-Main-3/ERROR]: Couldn't load tag magistuarmory:gilding_templates as it is missing following references: magistuarmoryaddon:gilding_template (from fabric)
+[02:31:16] [Worker-Main-3/ERROR]: Couldn't load tag c:silver_nuggets as it is missing following references: magistuarmoryaddon:silver_nugget (from fabric)
+[02:31:17] [Worker-Main-2/ERROR]: Couldn't parse element loot_tables:dustydecorations:blocks/pot
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dustydecorations:pot'
 	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -568,8 +570,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[00:51:11] [main/INFO]: Successfully modified loot table: 'minecraft:chests/bastion_treasure'
-[00:51:12] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:lion_sallet
+[02:31:18] [main/INFO]: Successfully modified loot table: 'minecraft:chests/bastion_treasure'
+[02:31:18] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:lion_sallet
 com.google.gson.JsonSyntaxException: Unknown item 'magistuarmoryaddon:lion_sallet'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -592,7 +594,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'magistuarmoryaddon:lion_salle
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:51:12] [main/ERROR]: Parsing error loading recipe slavicarmory:lamellar_mail_breastplate
+[02:31:18] [main/ERROR]: Parsing error loading recipe slavicarmory:lamellar_mail_breastplate
 com.google.gson.JsonSyntaxException: Unknown item 'slavicarmory:lamellar_mail_breastplate'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -615,7 +617,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'slavicarmory:lamellar_mail_br
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:51:12] [main/ERROR]: Parsing error loading recipe antiquelegacy:furnace/bronze_nugget_blasting
+[02:31:18] [main/ERROR]: Parsing error loading recipe antiquelegacy:furnace/bronze_nugget_blasting
 com.google.gson.JsonSyntaxException: Unknown item 'antiquelegacy:left_gladiator_shoulder_pad'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -650,7 +652,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'antiquelegacy:left_gladiator_
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:51:12] [main/ERROR]: Parsing error loading recipe supplementaries:integration/lapis_bricks_fd
+[02:31:18] [main/ERROR]: Parsing error loading recipe supplementaries:integration/lapis_bricks_fd
 com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
 	at net.minecraft.class_1856.method_8107(class_1856.java:167) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[server-intermediary.jar:?]
@@ -672,7 +674,7 @@ com.google.gson.JsonParseException: An ingredient entry needs either a tag or an
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:51:12] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:furnace/steel_nugget_blasting
+[02:31:18] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:furnace/steel_nugget_blasting
 com.google.gson.JsonSyntaxException: Unknown item 'magistuarmoryaddon:steel_dueling_shield'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -707,7 +709,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'magistuarmoryaddon:steel_duel
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:51:12] [main/ERROR]: Parsing error loading recipe thecopperrail:copper_rail
+[02:31:18] [main/ERROR]: Parsing error loading recipe thecopperrail:copper_rail
 com.google.gson.JsonSyntaxException: Unknown item 'thecopperrail:copper_rail'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -730,7 +732,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'thecopperrail:copper_rail'
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:51:12] [main/ERROR]: Parsing error loading recipe antiquelegacy:mars_of_todi_thorax
+[02:31:18] [main/ERROR]: Parsing error loading recipe antiquelegacy:mars_of_todi_thorax
 com.google.gson.JsonSyntaxException: Unknown item 'antiquelegacy:mars_of_todi_thorax'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -753,7 +755,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'antiquelegacy:mars_of_todi_th
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:51:12] [main/ERROR]: Parsing error loading recipe antiquelegacy:furnace/gold_nugget_blasting
+[02:31:18] [main/ERROR]: Parsing error loading recipe antiquelegacy:furnace/gold_nugget_blasting
 com.google.gson.JsonSyntaxException: Unknown item 'antiquelegacy:golden_laurel_wreath'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -788,7 +790,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'antiquelegacy:golden_laurel_w
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:51:12] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:silvered_dark_bellows_maximilian_helmet_silvering
+[02:31:18] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:silvered_dark_bellows_maximilian_helmet_silvering
 com.google.gson.JsonSyntaxException: Missing field template
 	at net.minecraft.class_3518.method_52226(class_3518.java:110) ~[server-intermediary.jar:?]
 	at net.minecraft.class_8060$class_8061.method_48455(class_8060.java:87) ~[server-intermediary.jar:?]
@@ -808,7 +810,7 @@ com.google.gson.JsonSyntaxException: Missing field template
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:51:12] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:silvered_dark_half_armor_silvering
+[02:31:18] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:silvered_dark_half_armor_silvering
 com.google.gson.JsonSyntaxException: Missing field template
 	at net.minecraft.class_3518.method_52226(class_3518.java:110) ~[server-intermediary.jar:?]
 	at net.minecraft.class_8060$class_8061.method_48455(class_8060.java:87) ~[server-intermediary.jar:?]
@@ -828,7 +830,7 @@ com.google.gson.JsonSyntaxException: Missing field template
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:51:12] [main/ERROR]: Parsing error loading recipe slavicarmory:gilded_lamellar_breastplate_gilding
+[02:31:18] [main/ERROR]: Parsing error loading recipe slavicarmory:gilded_lamellar_breastplate_gilding
 com.google.gson.JsonSyntaxException: Unknown item 'magistuarmory:lamellar_breastplate'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -853,7 +855,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'magistuarmory:lamellar_breast
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:51:12] [main/ERROR]: Parsing error loading recipe antiquelegacy:furnace/iron_nugget_blasting
+[02:31:18] [main/ERROR]: Parsing error loading recipe antiquelegacy:furnace/iron_nugget_blasting
 com.google.gson.JsonSyntaxException: Unknown item 'antiquelegacy:iron_left_hand_manika'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -888,7 +890,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'antiquelegacy:iron_left_hand_
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:51:12] [main/ERROR]: Parsing error loading recipe supplementaries:integration/ash_bricks_fd
+[02:31:18] [main/ERROR]: Parsing error loading recipe supplementaries:integration/ash_bricks_fd
 com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
 	at net.minecraft.class_1856.method_8107(class_1856.java:167) ~[server-intermediary.jar:?]
 	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[server-intermediary.jar:?]
@@ -910,7 +912,7 @@ com.google.gson.JsonParseException: An ingredient entry needs either a tag or an
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:51:12] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:silvered_dark_chestplate_silvering
+[02:31:18] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:silvered_dark_chestplate_silvering
 com.google.gson.JsonSyntaxException: Missing field template
 	at net.minecraft.class_3518.method_52226(class_3518.java:110) ~[server-intermediary.jar:?]
 	at net.minecraft.class_8060$class_8061.method_48455(class_8060.java:87) ~[server-intermediary.jar:?]
@@ -930,8 +932,8 @@ com.google.gson.JsonSyntaxException: Missing field template
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
-[00:51:12] [main/INFO]: Loaded 40 recipes
-[00:51:12] [main/ERROR]: Failed to load function watching:check
+[02:31:18] [main/INFO]: Loaded 40 recipes
+[02:31:18] [main/ERROR]: Failed to load function watching:check
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: command.unknown.command at position 0: <--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -947,631 +949,453 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[00:51:12] [main/INFO]: Loaded 4806 advancements
-[00:51:12] [main/INFO]: Trying to load unloaded files from: config/bountiful/bounty_pools
-[00:51:12] [main/INFO]: Trying to load unloaded files from: config/bountiful/bounty_decrees
-[00:51:12] [main/INFO]: Ice And Fire common config version match.
-[00:51:12] [main/INFO]: Successfully reload 2 server config(s).
-[00:51:12] [main/INFO]: Reloading config...
-[00:51:12] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:ash_from_burning_mobs - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[00:51:12] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:straw_from_flax - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[00:51:12] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[00:51:12] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
-[00:51:12] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:replace_rope - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: supplementaries:replace_rope
-[00:51:12] [main/INFO]: Loaded 44 chiseling recipes
-[00:51:12] [main/INFO]: [Fabric Seasons] Successfully loaded 15 custom crop configs.
-[00:51:12] [main/INFO]: Loaded 27 flute songs
-[00:51:12] [main/INFO]: Reloading grave shape (server)
-[00:51:12] [main/INFO]: Grave model and shape reload successful (server)
-[00:51:12] [main/INFO]: Reloading YIGD graveyard data (server)
-[00:51:12] [main/INFO]: Graveyard data successfully reloaded (server)
-[00:51:12] [main/INFO]: Reloading YIGD grave area overrides (server)
-[00:51:12] [main/INFO]: Grave area overrides successfully reloaded (server)
-[00:51:12] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: 1_splatus:spellbound/hot
-[00:51:12] [main/INFO]: Applied 7 data villager trades
-[00:51:12] [main/INFO]: Finished additional setup in 0 ms
-[00:51:13] [main/INFO]: Applied 3229 biome modifications to 175 of 211 new biomes in 61.05 ms
-[00:51:13] [Server thread/INFO]: Loading server config for barteringstation
-[00:51:13] [Thread-2/INFO]: Reloading server config for barteringstation
-[00:51:13] [Thread-2/INFO]: Reloading server config for barteringstation
-[00:51:13] [Server thread/INFO]: Loading server config for bettertridents
-[00:51:13] [Server thread/INFO]: Loading server config for easyanvils
-[00:51:13] [Thread-2/INFO]: Reloading server config for easyanvils
-[00:51:13] [Server thread/INFO]: Loading server config for easymagic
-[00:51:13] [Thread-2/INFO]: Reloading server config for easyanvils
-[00:51:13] [Server thread/INFO]: Loading server config for enchantinginfuser
-[00:51:13] [Thread-2/INFO]: Reloading server config for enchantinginfuser
-[00:51:13] [Thread-2/INFO]: Reloading server config for enchantinginfuser
-[00:51:13] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: plains
-[00:51:13] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
-[00:51:13] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
-[00:51:13] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
-[00:51:13] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: desert
-[00:51:13] [Server thread/INFO]: Loading server configs...
-[00:51:13] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry is about to freeze
-[00:51:13] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry was frozen
-[00:51:13] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
-[00:51:13] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
-[00:51:13] [Server thread/INFO]: Saving config FrozenLibConfig from frozenlib
-[00:51:13] [Server thread/INFO]: Saving config SimpleCopperPipesConfig from simple_copper_pipes
-[00:51:13] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[00:51:13] [Server thread/INFO]: Loading properties
-[00:51:13] [Server thread/INFO]: Default game type: SURVIVAL
-[00:51:13] [Server thread/INFO]: Generating keypair
-[00:51:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:51:13] [Server thread/INFO]: Using epoll channel type
-[00:51:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:51:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:51:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:51:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:51:13] [Server thread/INFO]: Preparing level "world"
-[00:51:13] [Server thread/INFO]: Initializing Open Parties and Claims for the server...
-[00:51:13] [Server thread/INFO]: Loading server info!
-[00:51:13] [Server thread/INFO]: Loading player configs...
-[00:51:13] [Server thread/INFO]: Loaded player configs!
-[00:51:13] [Server thread/INFO]: Loading parties...
-[00:51:13] [Server thread/INFO]: Loaded parties!
-[00:51:13] [Server thread/INFO]: Fixing party inconsistencies...
-[00:51:14] [Server thread/INFO]: Registered party system for OPAC: default
-[00:51:14] [Server thread/INFO]: Registered permission system for OPAC: permission_api
-[00:51:14] [Server thread/INFO]: [Surveyor] Loading data for minecraft:overworld
-[00:51:16] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:overworld
-[00:51:17] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_nether
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[00:51:17] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_nether
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[00:51:17] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_end
-[00:51:17] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_end
-[00:51:17] [Server thread/INFO]: [Surveyor] Loading data for deeperdarker:otherside
-[00:51:17] [Server thread/INFO]: [Surveyor] Finished loading data for deeperdarker:otherside
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[00:51:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:51:19] [Server thread/INFO]: menu.preparingSpawn
-[00:51:19] [Server thread/INFO]: menu.preparingSpawn
-[00:51:19] [Server thread/INFO]: menu.preparingSpawn
-[00:51:19] [Server thread/INFO]: menu.preparingSpawn
-[00:51:19] [Server thread/INFO]: menu.preparingSpawn
-[00:51:20] [Server thread/INFO]: menu.preparingSpawn
-[00:51:22] [Server thread/INFO]: Time elapsed: 4256 ms
-[00:51:22] [Server thread/INFO]: Done (8.261s)! For help, type "help"
-[00:51:22] [Server thread/WARN]: Dedicated server took 44.182 seconds to load
-[00:51:22] [Server thread/INFO]: Start loading plugin from Ice And Fire
-[00:51:22] [Server thread/INFO]: Start loading plugin from Jade
-[00:51:22] [Server thread/INFO]: Start loading plugin from Jade
-[00:51:22] [Server thread/INFO]: Start loading plugin from Jade
-[00:51:22] [Server thread/INFO]: Start loading plugin from Supplementaries
-[00:51:22] [Server thread/INFO]: Start loading plugin from HT's TreeChop
-[00:51:22] [Server thread/INFO]: [Surveyor] Loading data for minecraft:server_faucet_test_level
-[00:51:22] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:server_faucet_test_level
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[00:51:30] [Worker-Main-2/WARN]: Empty height range: biased[-3 absolute--5 absolute inner: 1]
-[00:51:31] [Worker-Main-3/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
-[00:51:42] [Server thread/INFO]: Loaded values for 31 compatible attributes.
-[00:51:42] [Server thread/INFO]: Loaded 31 values from config.
-[00:51:42] [Server thread/INFO]: Saving config file. 31 entries.
-[00:51:42] [Server thread/INFO]: Applying changes for 31 attributes.
-[00:51:42] [Server thread/INFO]: Loading claims...
-[00:51:42] [Server thread/INFO]: Loaded claims in 7ms
-[00:51:42] [Server thread/WARN]: The configured permission system "prometheus" isn't registered!
-[00:51:42] [Server thread/INFO]: Configured OPAC to use the following permission system: permission_api
-[00:51:42] [Server thread/WARN]: The configured primary party system "argonauts_guilds" isn't registered!
-[00:51:42] [Server thread/INFO]: Configured OPAC to use the following party system as primary: default
-[00:51:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20775ms or 415 ticks behind
-[00:51:46] [Server thread/INFO]: venusgiuse[/127.33.127.42:56601] logged in with entity id 202 at (11070.23148354094, 64.0, -7157.535232846393)
-[00:51:46] [Server thread/INFO]: Sending server config values to client
-[00:51:46] [Server thread/INFO]: Syncing config to venusgiuse (72277dd0-c77e-3a30-aeff-76093ad8e5c9)
-[00:51:47] [Server thread/INFO]: [Surveyor] Loading data for minecraft:server_projectile_test_level
-[00:51:47] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:server_projectile_test_level
-[00:51:47] [Netty Epoll Server IO #0/INFO]: Receiving client config
-[00:51:49] [Netty Epoll Server IO #0/INFO]: Priority overwritten for player venusgiuse. Claiming: GRAVE / Robbing: INVENTORY
-[00:51:54] [Worker-Main-3/WARN]: Empty height range: biased[-3 absolute--5 absolute inner: 1]
-[00:51:54] [Worker-Main-1/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
-[00:52:04] [Server thread/INFO]: multiplayer.player.joined
-[00:52:04] [Server thread/INFO]: Updating all forceload tickets for 72277dd0-c77e-3a30-aeff-76093ad8e5c9
-[00:52:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23090ms or 461 ticks behind
-[00:52:53] [Worker-Main-1/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
-[00:53:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2538ms or 50 ticks behind
-[00:54:56] [Server thread/INFO]: TRECETRECETRECE[/127.202.206.192:48737] logged in with entity id 13500 at (-2797.316389188549, 96.0, -862.3831766630357)
-[00:54:56] [Server thread/INFO]: Sending server config values to client
-[00:54:56] [Server thread/INFO]: Syncing config to TRECETRECETRECE (723c0b61-1d01-371c-be4b-0b6817ec3f00)
-[00:54:56] [Server thread/INFO]: multiplayer.player.joined
-[00:54:56] [Server thread/INFO]: Updating all forceload tickets for 723c0b61-1d01-371c-be4b-0b6817ec3f00
-[00:54:56] [Netty Epoll Server IO #2/INFO]: Receiving client config
-[00:54:58] [Netty Epoll Server IO #2/INFO]: Priority overwritten for player TRECETRECETRECE. Claiming: GRAVE / Robbing: INVENTORY
-[00:55:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[00:55:07] [Worker-Main-2/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:mine_with_campsite/side_pool which is being called from mvs:other_decoration/mine_with_campsite
-[00:55:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10368ms or 207 ticks behind
-[00:56:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18634ms or 372 ticks behind
-[00:56:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16385ms or 327 ticks behind
-[00:57:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19767ms or 395 ticks behind
-[00:57:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21012ms or 420 ticks behind
-[00:58:14] [pool-5-thread-1/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / stellarity:village], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]] from pos class_2338{x=10437, y=67, z=-7243}
-[00:58:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25253ms or 505 ticks behind
-[00:58:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18776ms or 375 ticks behind
-[00:59:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20839ms or 416 ticks behind
-[01:00:10] [Worker-Main-2/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
-[01:00:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25298ms or 505 ticks behind
-[01:00:25] [Server thread/INFO]: chat.type.advancement.task
-[01:00:33] [Worker-Main-3/WARN]: Empty height range: biased[-3 absolute--5 absolute inner: 1]
-[01:00:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23192ms or 463 ticks behind
-[01:01:00] [pool-5-thread-2/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / stellarity:village], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]] from pos class_2338{x=10437, y=72, z=-7461}
-[01:01:01] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=10437, y=72, z=-7461} but found not block entity block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] at location
-[01:01:01] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] but failed at location class_2338{x=10437, y=72, z=-7461}
-[01:01:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28488ms or 569 ticks behind
-[01:01:43] [Server thread/WARN]: venusgiuse moved too quickly! 2.9297923511312547,1.2778765279333086,9.896737562687122
-[01:02:10] [Server thread/INFO]: Neeral[/127.166.77.49:36033] logged in with entity id 63462 at (1500.619707334342, 63.0, 730.623295153324)
-[01:02:10] [Server thread/INFO]: Sending server config values to client
-[01:02:10] [Server thread/INFO]: Syncing config to Neeral (f1417732-e9ee-3591-81b4-aedd2a10b638)
-[01:02:10] [Server thread/INFO]: multiplayer.player.joined
-[01:02:10] [Server thread/INFO]: Updating all forceload tickets for f1417732-e9ee-3591-81b4-aedd2a10b638
-[01:02:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22915ms or 458 ticks behind
-[01:02:14] [Netty Epoll Server IO #4/INFO]: Priority overwritten for player Neeral. Claiming: GRAVE / Robbing: INVENTORY
-[01:02:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29558ms or 591 ticks behind
-[01:03:13] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:03:16] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:03:27] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:03:30] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:03:38] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:03:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29693ms or 593 ticks behind
-[01:03:42] [Worker-Main-2/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
-[01:03:51] [Server thread/INFO]: Villager class_1646['Unemployed'/64380, l='ServerLevel[world]', x=1423.15, y=56.40, z=827.48] died, message: 'death.attack.inWall'
-[01:03:57] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:04:02] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:04:09] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:04:13] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:04:18] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:04:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30219ms or 604 ticks behind
-[01:04:36] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:04:42] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:05:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29213ms or 584 ticks behind
-[01:05:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25621ms or 512 ticks behind
-[01:06:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29172ms or 583 ticks behind
-[01:06:49] [Worker-Main-2/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
-[01:07:10] [Worker-Main-1/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
-[01:07:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29288ms or 585 ticks behind
-[01:07:45] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:07:49] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:08:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29527ms or 590 ticks behind
-[01:08:22] [pool-5-thread-3/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / stellarity:village], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos class_2338{x=11621, y=69, z=-7205}
-[01:08:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31273ms or 625 ticks behind
-[01:08:59] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:09:31] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:09:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29156ms or 583 ticks behind
-[01:09:55] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:10:14] [Server thread/INFO]: chat.type.advancement.goal
-[01:10:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30424ms or 608 ticks behind
-[01:10:25] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:11:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28829ms or 576 ticks behind
-[01:11:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27485ms or 549 ticks behind
-[01:12:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29295ms or 585 ticks behind
-[01:13:20] [Server thread/INFO]: chat.type.advancement.task
-[01:13:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 53731ms or 1074 ticks behind
-[01:14:05] [Server thread/INFO]: Gregas[/127.47.55.9:59127] logged in with entity id 92552 at (-2793.0487874938235, 93.125, -898.3082662435231)
-[01:14:05] [Server thread/INFO]: Sending server config values to client
-[01:14:05] [Server thread/INFO]: Syncing config to Gregas (909b467c-3e44-31f4-936f-6b9511611cde)
-[01:14:05] [Server thread/INFO]: multiplayer.player.joined
-[01:14:05] [Server thread/INFO]: Updating all forceload tickets for 909b467c-3e44-31f4-936f-6b9511611cde
-[01:14:05] [Netty Epoll Server IO #6/INFO]: Receiving client config
-[01:14:06] [Netty Epoll Server IO #6/INFO]: Priority overwritten for player Gregas. Claiming: GRAVE / Robbing: INVENTORY
-[01:14:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 40674ms or 813 ticks behind
-[01:14:47] [Server thread/WARN]: UUID of added entity already exists: EntityLightningDragon['Lightning Dragon'/93096, l='ServerLevel[world]', x=-2798.50, y=96.00, z=-861.50]
-[01:14:48] [Server thread/WARN]: UUID of added entity already exists: EntityLightningDragon['Lightning Dragon'/93106, l='ServerLevel[world]', x=-2797.50, y=96.00, z=-862.50]
-[01:14:48] [Server thread/WARN]: UUID of added entity already exists: EntityLightningDragon['Lightning Dragon'/93109, l='ServerLevel[world]', x=-2797.50, y=96.00, z=-862.50]
-[01:15:08] [Server thread/WARN]: Gregas moved too quickly! -2.457609417137064,2.0,-9.601542240252797
-[01:15:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 41903ms or 838 ticks behind
-[01:16:10] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:16:16] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:16:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 42220ms or 844 ticks behind
-[01:17:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30987ms or 619 ticks behind
-[01:17:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29937ms or 598 ticks behind
-[01:18:14] [Server thread/WARN]: Neeral moved wrongly!
-[01:18:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28524ms or 570 ticks behind
-[01:19:19] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:19:24] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:19:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30220ms or 604 ticks behind
-[01:19:32] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:19:40] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:20:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27562ms or 551 ticks behind
-[01:20:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28710ms or 574 ticks behind
-[01:21:00] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:21:06] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:21:13] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:21:14] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:21:19] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:21:22] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:21:31] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:21:36] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:21:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28956ms or 579 ticks behind
-[01:21:41] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:21:53] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:21:56] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:22:01] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:22:03] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:22:08] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:22:20] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:22:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26865ms or 537 ticks behind
-[01:22:28] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:22:30] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:22:33] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:22:42] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:22:43] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:22:52] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:22:54] [Server thread/INFO]: [Not Secure] chat.type.text
-[01:23:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24858ms or 497 ticks behind
-[01:23:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28058ms or 561 ticks behind
+[02:31:19] [main/INFO]: Loaded 4806 advancements
+[02:31:19] [main/INFO]: Trying to load unloaded files from: config/bountiful/bounty_pools
+[02:31:19] [main/INFO]: Trying to load unloaded files from: config/bountiful/bounty_decrees
+[02:31:19] [main/INFO]: Ice And Fire common config version match.
+[02:31:19] [main/INFO]: Successfully reload 2 server config(s).
+[02:31:19] [main/INFO]: Reloading config...
+[02:31:19] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:ash_from_burning_mobs - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[02:31:19] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:straw_from_flax - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[02:31:19] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[02:31:19] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[02:31:19] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:replace_rope - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: supplementaries:replace_rope
+[02:31:19] [main/INFO]: Loaded 44 chiseling recipes
+[02:31:19] [main/INFO]: [Fabric Seasons] Successfully loaded 15 custom crop configs.
+[02:31:19] [main/INFO]: Loaded 27 flute songs
+[02:31:19] [main/INFO]: Reloading grave shape (server)
+[02:31:19] [main/INFO]: Grave model and shape reload successful (server)
+[02:31:19] [main/INFO]: Reloading YIGD graveyard data (server)
+[02:31:19] [main/INFO]: Graveyard data successfully reloaded (server)
+[02:31:19] [main/INFO]: Reloading YIGD grave area overrides (server)
+[02:31:19] [main/INFO]: Grave area overrides successfully reloaded (server)
+[02:31:19] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: 1_splatus:spellbound/hot
+[02:31:19] [main/INFO]: Applied 7 data villager trades
+[02:31:19] [main/INFO]: Finished additional setup in 0 ms
+[02:31:19] [main/INFO]: Applied 3229 biome modifications to 175 of 211 new biomes in 45.95 ms
+[02:31:19] [Server thread/INFO]: Loading server config for barteringstation
+[02:31:19] [Thread-2/INFO]: Reloading server config for barteringstation
+[02:31:19] [Server thread/INFO]: Loading server config for bettertridents
+[02:31:19] [Thread-2/INFO]: Reloading server config for barteringstation
+[02:31:19] [Server thread/INFO]: Loading server config for easyanvils
+[02:31:19] [Thread-2/INFO]: Reloading server config for easyanvils
+[02:31:19] [Server thread/INFO]: Loading server config for easymagic
+[02:31:19] [Thread-2/INFO]: Reloading server config for easyanvils
+[02:31:19] [Server thread/INFO]: Loading server config for enchantinginfuser
+[02:31:19] [Thread-2/INFO]: Reloading server config for enchantinginfuser
+[02:31:19] [Thread-2/INFO]: Reloading server config for enchantinginfuser
+[02:31:19] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: plains
+[02:31:19] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
+[02:31:19] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
+[02:31:19] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
+[02:31:19] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: desert
+[02:31:19] [Server thread/INFO]: Loading server configs...
+[02:31:19] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry is about to freeze
+[02:31:19] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry was frozen
+[02:31:19] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
+[02:31:19] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
+[02:31:20] [Server thread/INFO]: Saving config FrozenLibConfig from frozenlib
+[02:31:20] [Server thread/INFO]: Saving config SimpleCopperPipesConfig from simple_copper_pipes
+[02:31:20] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[02:31:20] [Server thread/INFO]: Loading properties
+[02:31:20] [Server thread/INFO]: Default game type: SURVIVAL
+[02:31:20] [Server thread/INFO]: Generating keypair
+[02:31:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:31:20] [Server thread/INFO]: Using epoll channel type
+[02:31:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:31:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:31:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:31:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:31:20] [Server thread/INFO]: Preparing level "world"
+[02:31:20] [Server thread/INFO]: Initializing Open Parties and Claims for the server...
+[02:31:20] [Server thread/INFO]: Loading server info!
+[02:31:20] [Server thread/INFO]: Loading player configs...
+[02:31:20] [Server thread/INFO]: Loaded player configs!
+[02:31:20] [Server thread/INFO]: Loading parties...
+[02:31:20] [Server thread/INFO]: Loaded parties!
+[02:31:20] [Server thread/INFO]: Fixing party inconsistencies...
+[02:31:20] [Server thread/INFO]: Registered party system for OPAC: default
+[02:31:20] [Server thread/INFO]: Registered permission system for OPAC: permission_api
+[02:31:20] [Server thread/INFO]: [Surveyor] Loading data for minecraft:overworld
+[02:31:22] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:overworld
+[02:31:23] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_nether
+[02:31:23] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_nether
+[02:31:23] [Server thread/INFO]: [Surveyor] Loading data for deeperdarker:otherside
+[02:31:23] [Server thread/INFO]: [Surveyor] Finished loading data for deeperdarker:otherside
+[02:31:23] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_end
+[02:31:23] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_end
+[02:31:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:31:25] [Server thread/INFO]: menu.preparingSpawn
+[02:31:25] [Server thread/INFO]: menu.preparingSpawn
+[02:31:25] [Server thread/INFO]: menu.preparingSpawn
+[02:31:25] [Server thread/INFO]: menu.preparingSpawn
+[02:31:26] [Server thread/INFO]: menu.preparingSpawn
+[02:31:26] [Server thread/INFO]: menu.preparingSpawn
+[02:31:27] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:28] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:28] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:28] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:29] [Server thread/INFO]: menu.preparingSpawn
+[02:31:29] [Server thread/INFO]: menu.preparingSpawn
+[02:31:30] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:31] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:31] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:31] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:32] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:32] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:33] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:33] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:34] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:34] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:35] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:35] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:36] [Server thread/INFO]: menu.preparingSpawn
+[02:31:36] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:37] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:37] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:38] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:38] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:39] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:39] [Server thread/INFO]: menu.preparingSpawn
+[02:31:40] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:40] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:41] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:41] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:42] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:42] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:43] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:43] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[02:31:43] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[02:31:44] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[02:31:44] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[02:31:44] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:45] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:45] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:46] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:46] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:47] [Server thread/INFO]: menu.preparingSpawn
+[02:31:47] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:48] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:48] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:49] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:49] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:50] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:50] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:51] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:51] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:52] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:52] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:53] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:31:53] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:54] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:54] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:55] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:55] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:56] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:56] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:31:57] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:57] [Server thread/INFO]: menu.preparingSpawn
+[02:31:58] [Server thread/INFO]: menu.preparingSpawn
+[02:31:58] [Server thread/INFO]: menu.preparingSpawn
+[02:31:59] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:31:59] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:32:00] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:32:00] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:32:01] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:32:01] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:32:02] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:32:02] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:32:03] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:32:03] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:32:04] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:32:04] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:32:05] [Worker-Main-1/INFO]: menu.preparingSpawn
+[02:32:05] [Worker-Main-2/INFO]: menu.preparingSpawn
+[02:32:06] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:32:06] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:32:07] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:32:07] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:32:08] [Worker-Main-3/INFO]: menu.preparingSpawn
+[02:32:08] [Server thread/INFO]: Time elapsed: 44339 ms
+[02:32:08] [Server thread/INFO]: Done (48.112s)! For help, type "help"
+[02:32:08] [Server thread/WARN]: Dedicated server took 84.04 seconds to load
+[02:32:08] [Server thread/INFO]: Start loading plugin from Ice And Fire
+[02:32:08] [Server thread/INFO]: Start loading plugin from Jade
+[02:32:08] [Server thread/INFO]: Start loading plugin from Jade
+[02:32:08] [Server thread/INFO]: Start loading plugin from Jade
+[02:32:08] [Server thread/INFO]: Start loading plugin from Supplementaries
+[02:32:08] [Server thread/INFO]: Start loading plugin from HT's TreeChop
+[02:32:08] [Server thread/INFO]: [Surveyor] Loading data for minecraft:server_faucet_test_level
+[02:32:08] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:server_faucet_test_level
+[02:32:15] [Worker-Main-2/WARN]: Empty height range: biased[-3 absolute--5 absolute inner: 1]
+[02:32:17] [Worker-Main-1/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[02:32:24] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[02:32:27] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[02:32:27] [Server thread/INFO]: Loaded values for 31 compatible attributes.
+[02:32:27] [Server thread/INFO]: Loaded 31 values from config.
+[02:32:27] [Server thread/INFO]: Saving config file. 31 entries.
+[02:32:27] [Server thread/INFO]: Applying changes for 31 attributes.
+[02:32:27] [Server thread/INFO]: Loading claims...
+[02:32:27] [Server thread/INFO]: Loaded claims in 2ms
+[02:32:27] [Server thread/WARN]: The configured permission system "prometheus" isn't registered!
+[02:32:27] [Server thread/INFO]: Configured OPAC to use the following permission system: permission_api
+[02:32:27] [Server thread/WARN]: The configured primary party system "argonauts_guilds" isn't registered!
+[02:32:27] [Server thread/INFO]: Configured OPAC to use the following party system as primary: default
+[02:32:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18940ms or 378 ticks behind
+[02:32:34] [Worker-Main-1/WARN]: Empty height range: biased[-3 absolute--5 absolute inner: 1]
+[02:32:50] [Server thread/INFO]: venusgiuse[/127.33.127.42:60755] logged in with entity id 222 at (10479.214039459013, 117.11860793603533, -8027.139338095474)
+[02:32:50] [Server thread/INFO]: Sending server config values to client
+[02:32:50] [Server thread/INFO]: Syncing config to venusgiuse (72277dd0-c77e-3a30-aeff-76093ad8e5c9)
+[02:32:50] [Server thread/INFO]: [Surveyor] Loading data for minecraft:server_projectile_test_level
+[02:32:50] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:server_projectile_test_level
+[02:32:50] [Netty Epoll Server IO #2/INFO]: Receiving client config
+[02:32:51] [Netty Epoll Server IO #2/INFO]: Priority overwritten for player venusgiuse. Claiming: GRAVE / Robbing: INVENTORY
+[02:32:58] [Worker-Main-1/WARN]: Empty height range: biased[-3 absolute--5 absolute inner: 1]
+[02:32:59] [Worker-Main-2/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
+[02:33:09] [Server thread/INFO]: multiplayer.player.joined
+[02:33:09] [Server thread/INFO]: Updating all forceload tickets for 72277dd0-c77e-3a30-aeff-76093ad8e5c9
+[02:33:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18574ms or 371 ticks behind
+[02:33:10] [Server thread/INFO]: TRECETRECETRECE[/127.202.206.192:43603] logged in with entity id 240 at (-2808.0837166005394, 93.0, -897.3043853057621)
+[02:33:10] [Server thread/INFO]: Sending server config values to client
+[02:33:10] [Server thread/INFO]: Syncing config to TRECETRECETRECE (723c0b61-1d01-371c-be4b-0b6817ec3f00)
+[02:33:11] [Server thread/INFO]: multiplayer.player.joined
+[02:33:11] [Server thread/INFO]: Updating all forceload tickets for 723c0b61-1d01-371c-be4b-0b6817ec3f00
+[02:33:11] [Netty Epoll Server IO #4/INFO]: Receiving client config
+[02:33:11] [Netty Epoll Server IO #4/INFO]: Priority overwritten for player TRECETRECETRECE. Claiming: GRAVE / Robbing: INVENTORY
+[02:33:21] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[02:33:21] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[02:33:21] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[02:33:21] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[02:33:21] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=95}
+[02:33:21] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=99}
+[02:33:21] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=103}
+[02:33:21] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=107}
+[02:33:21] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[02:33:21] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[02:33:21] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[02:33:21] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[02:33:22] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[02:33:22] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[02:33:22] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[02:33:22] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[02:33:24] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=95}
+[02:33:24] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=99}
+[02:33:24] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=103}
+[02:33:24] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=107}
+[02:33:28] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[02:33:28] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[02:33:28] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[02:33:28] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[02:33:31] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[02:33:31] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[02:33:31] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[02:33:31] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[02:33:32] [Server thread/WARN]: TRECETRECETRECE moved too quickly! 1.8596814934467147,2.5,9.833614999665201
+[02:33:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20943ms or 418 ticks behind
+[02:33:58] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[02:33:58] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[02:33:58] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[02:33:58] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[02:33:58] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[02:33:58] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[02:33:58] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[02:33:58] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[02:34:02] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=95}
+[02:34:02] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=99}
+[02:34:02] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=103}
+[02:34:02] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=107}
+[02:34:04] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[02:34:04] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[02:34:04] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[02:34:04] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[02:34:04] [Server thread/WARN]: TRECETRECETRECE moved too quickly! 1.483488133845185,0.0,-10.268040666767888
+[02:34:06] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[02:34:06] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[02:34:06] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[02:34:06] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[02:34:08] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=95}
+[02:34:08] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=99}
+[02:34:08] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=103}
+[02:34:08] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=107}
+[02:34:09] [Worker-Main-2/WARN]: Empty height range: biased[-3 absolute--5 absolute inner: 1]
+[02:34:13] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[02:34:13] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[02:34:13] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[02:34:13] [Worker-Main-3/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[02:34:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13714ms or 274 ticks behind
+[02:34:21] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=111}
+[02:34:21] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=115}
+[02:34:21] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=119}
+[02:34:21] [Worker-Main-2/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=123}
+[02:34:32] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=95}
+[02:34:32] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=99}
+[02:34:32] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=103}
+[02:34:32] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=107}
+[02:34:34] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=79}
+[02:34:34] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=83}
+[02:34:34] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=87}
+[02:34:34] [Worker-Main-1/ERROR]: Hanging entity at invalid position: class_2338{x=8, y=-59, z=91}
+[02:34:36] [Server thread/WARN]: venusgiuse moved too quickly! 7.8560266247768595,-5.0,4.72931845527728
+[02:34:39] [Server thread/INFO]: chat.type.admin
+[02:34:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16085ms or 321 ticks behind
+[02:35:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11963ms or 239 ticks behind
+[02:35:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16195ms or 323 ticks behind
+[02:36:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16036ms or 320 ticks behind
+[02:36:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15615ms or 312 ticks behind
+[02:37:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16375ms or 327 ticks behind
+[02:37:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15815ms or 316 ticks behind
+[02:38:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15205ms or 304 ticks behind
+[02:38:31] [Worker-Main-1/WARN]: Empty height range: biased[-3 absolute--5 absolute inner: 1]
+[02:38:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15254ms or 305 ticks behind
+[02:39:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11528ms or 230 ticks behind
+[02:39:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13509ms or 270 ticks behind
+[02:40:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13193ms or 263 ticks behind
+[02:40:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12836ms or 256 ticks behind

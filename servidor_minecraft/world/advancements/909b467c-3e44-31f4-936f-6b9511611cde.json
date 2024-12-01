@@ -9147,87 +9147,82 @@
     },
     "done": true
   },
-  "create:recipes/misc/blasting/iron_ingot_from_crushed": {
+  "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "has_item": "2024-11-26 21:53:20 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:19 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "requirement": "2024-11-26 23:44:52 +0000",
+      "log_spam_fixer": "2024-11-26 23:44:19 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/smelting/iron_ingot_from_crushed": {
+  "incendium:technical/on_kill": {
     "criteria": {
-      "has_item": "2024-11-26 21:53:20 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:19 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:recipes/misc/dragonscale_electric_to_dragonscales_electric": {
+  "incendium:technical/on_inventory_change": {
     "criteria": {
-      "has_dragonscale_electric": "2024-11-26 21:55:54 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:19 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:recipes/misc/dragonscale_bronze_to_dragonscales_bronze": {
+  "incendium:technical/holy_wrath": {
     "criteria": {
-      "has_dragonscale_bronze": "2024-11-26 21:55:56 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:19 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:recipes/misc/dragonscale_black_to_dragonscales_black": {
+  "incendium:technical/on_block": {
     "criteria": {
-      "has_dragonscale_black": "2024-11-26 21:56:18 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:19 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:recipes/building_blocks/dragonforge_lightning_input": {
+  "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "has_item": "2024-11-26 21:56:42 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:19 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:recipes/building_blocks/dragonforge_lightning_core_disabled": {
+  "incendium:technical/feed_ghastling": {
     "criteria": {
-      "has_item": "2024-11-26 21:56:42 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:19 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:iceandfire/dragon_forge_brick": {
+  "incendium:technical/firestorm": {
     "criteria": {
-      "forge": "2024-11-26 21:56:42 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:19 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:iceandfire/dragon_forge_core": {
+  "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "core": "2024-11-26 21:56:53 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:19 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:recipes/combat/armor_amythest_leggings": {
+  "incendium:technical/give_ghastling": {
     "criteria": {
-      "has_item": "2024-11-26 21:58:03 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:19 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:recipes/combat/armor_amythest_helmet": {
+  "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "has_item": "2024-11-26 21:58:03 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:19 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:recipes/combat/armor_amythest_boots": {
+  "create:recipes/misc/blasting/copper_ingot_from_crushed": {
     "criteria": {
-      "has_item": "2024-11-26 21:58:03 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/building_blocks/dragonscales_amythest_to_dragonscale_amythest": {
-    "criteria": {
-      "has_dragonscales_amethyst": "2024-11-26 21:58:03 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/armor_amythest_chestplate": {
-    "criteria": {
-      "has_item": "2024-11-26 21:58:03 +0000"
+      "has_item": "2024-11-26 23:08:12 +0000"
     },
     "done": true
   },
@@ -9237,93 +9232,21 @@
     },
     "done": true
   },
-  "iceandfire:recipes/misc/blindfold": {
+  "iceandfire:recipes/building_blocks/dragonforge_lightning_input": {
     "criteria": {
-      "has_the_recipe": "2024-11-26 22:00:45 +0000"
+      "has_item": "2024-11-26 21:56:42 +0000"
     },
     "done": true
   },
-  "farmersdelight:main/place_feast": {
+  "iceandfire:iceandfire/dragon_forge_core": {
     "criteria": {
-      "shepherds_pie": "2024-11-26 22:02:44 +0000"
+      "core": "2024-11-26 21:56:53 +0000"
     },
     "done": true
   },
-  "iceandfire:recipes/misc/dragonscale_copper_to_dragonscales_copper": {
+  "create:recipes/misc/blasting/iron_ingot_from_crushed": {
     "criteria": {
-      "has_dragonscale_copper": "2024-11-26 22:14:49 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/tools/dragonsteel_lightning_shovel": {
-    "criteria": {
-      "has_item": "2024-11-26 22:25:49 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/dragonsteel_lightning_boots": {
-    "criteria": {
-      "has_item": "2024-11-26 22:25:49 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/building_blocks/dragonsteel_lightning_ingot_to_dragonsteel_lightning_block": {
-    "criteria": {
-      "has_dragonsteel_lightning_ingot": "2024-11-26 22:25:49 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/dragonsteel_lightning_helmet": {
-    "criteria": {
-      "has_item": "2024-11-26 22:25:49 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/dragonsteel_lightning_chestplate": {
-    "criteria": {
-      "has_item": "2024-11-26 22:25:49 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/dragonsteel_lightning_leggings": {
-    "criteria": {
-      "has_item": "2024-11-26 22:25:49 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/tools/dragonsteel_lightning_axe": {
-    "criteria": {
-      "has_item": "2024-11-26 22:25:49 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/tools/dragonsteel_lightning_hoe": {
-    "criteria": {
-      "has_item": "2024-11-26 22:25:49 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/tools/dragonsteel_lightning_sword": {
-    "criteria": {
-      "has_item": "2024-11-26 22:25:49 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/tools/dragonsteel_lightning_pickaxe": {
-    "criteria": {
-      "has_item": "2024-11-26 22:25:49 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/blasting/copper_ingot_from_crushed": {
-    "criteria": {
-      "has_item": "2024-11-26 23:08:12 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/smelting/copper_ingot_from_crushed": {
-    "criteria": {
-      "has_item": "2024-11-26 23:08:12 +0000"
+      "has_item": "2024-11-26 21:53:20 +0000"
     },
     "done": true
   },
@@ -9333,9 +9256,39 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/armor_amythest_leggings": {
+    "criteria": {
+      "has_item": "2024-11-26 21:58:03 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonsteel_lightning_shovel": {
+    "criteria": {
+      "has_item": "2024-11-26 22:25:49 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragonscale_bronze_to_dragonscales_bronze": {
+    "criteria": {
+      "has_dragonscale_bronze": "2024-11-26 21:55:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/mangrove_pressure_plate": {
     "criteria": {
       "has_planks": "2024-11-26 23:28:06 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonforge_lightning_core_disabled": {
+    "criteria": {
+      "has_item": "2024-11-26 21:56:42 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_amythest_helmet": {
+    "criteria": {
+      "has_item": "2024-11-26 21:58:03 +0000"
     },
     "done": true
   },
@@ -9357,6 +9310,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragon_forge_brick": {
+    "criteria": {
+      "forge": "2024-11-26 21:56:42 +0000"
+    },
+    "done": true
+  },
   "vinery:recipes/mangrove_wine_rack_big": {
     "criteria": {
       "has_mangrove_planks": "2024-11-26 23:28:06 +0000"
@@ -9375,15 +9334,93 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/dragonscale_electric_to_dragonscales_electric": {
+    "criteria": {
+      "has_dragonscale_electric": "2024-11-26 21:55:54 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/iron_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2024-11-26 21:53:20 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/dragonsteel_lightning_boots": {
+    "criteria": {
+      "has_item": "2024-11-26 22:25:49 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonsteel_lightning_ingot_to_dragonsteel_lightning_block": {
+    "criteria": {
+      "has_dragonsteel_lightning_ingot": "2024-11-26 22:25:49 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/blindfold": {
+    "criteria": {
+      "has_the_recipe": "2024-11-26 22:00:45 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/dragonsteel_lightning_helmet": {
+    "criteria": {
+      "has_item": "2024-11-26 22:25:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mangrove_stairs": {
     "criteria": {
       "has_planks": "2024-11-26 23:28:06 +0000"
     },
     "done": true
   },
+  "iceandfire:recipes/combat/dragonsteel_lightning_chestplate": {
+    "criteria": {
+      "has_item": "2024-11-26 22:25:49 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_feast": {
+    "criteria": {
+      "shepherds_pie": "2024-11-26 22:02:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/mangrove_door": {
     "criteria": {
       "has_planks": "2024-11-26 23:28:06 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_amythest_boots": {
+    "criteria": {
+      "has_item": "2024-11-26 21:58:03 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/dragonsteel_lightning_leggings": {
+    "criteria": {
+      "has_item": "2024-11-26 22:25:49 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/copper_ingot_from_crushed": {
+    "criteria": {
+      "has_item": "2024-11-26 23:08:12 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonsteel_lightning_axe": {
+    "criteria": {
+      "has_item": "2024-11-26 22:25:49 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonsteel_lightning_hoe": {
+    "criteria": {
+      "has_item": "2024-11-26 22:25:49 +0000"
     },
     "done": true
   },
@@ -9399,6 +9436,18 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/dragonscale_black_to_dragonscales_black": {
+    "criteria": {
+      "has_dragonscale_black": "2024-11-26 21:56:18 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonsteel_lightning_sword": {
+    "criteria": {
+      "has_item": "2024-11-26 22:25:49 +0000"
+    },
+    "done": true
+  },
   "candlelight:recipes/mangrove_cabinet": {
     "criteria": {
       "has_mangrove_planks": "2024-11-26 23:28:06 +0000"
@@ -9408,6 +9457,12 @@
   "minecraft:recipes/redstone/mangrove_trapdoor": {
     "criteria": {
       "has_planks": "2024-11-26 23:28:06 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonscales_amythest_to_dragonscale_amythest": {
+    "criteria": {
+      "has_dragonscales_amethyst": "2024-11-26 21:58:03 +0000"
     },
     "done": true
   },
@@ -9429,9 +9484,27 @@
     },
     "done": true
   },
+  "iceandfire:recipes/tools/dragonsteel_lightning_pickaxe": {
+    "criteria": {
+      "has_item": "2024-11-26 22:25:49 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragonscale_copper_to_dragonscales_copper": {
+    "criteria": {
+      "has_dragonscale_copper": "2024-11-26 22:14:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/mangrove_button": {
     "criteria": {
       "has_planks": "2024-11-26 23:28:06 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_amythest_chestplate": {
+    "criteria": {
+      "has_item": "2024-11-26 21:58:03 +0000"
     },
     "done": true
   },

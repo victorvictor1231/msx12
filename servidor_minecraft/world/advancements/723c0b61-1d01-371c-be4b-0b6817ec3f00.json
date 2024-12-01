@@ -12188,59 +12188,77 @@
     },
     "done": true
   },
-  "iceandfire:iceandfire/kill_cyclops": {
+  "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "killed_fire_dragon": "2024-11-26 22:01:17 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:20 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:iceandfire/gorgon_head": {
+  "incendium:technical/on_player_hurt": {
     "criteria": {
-      "bestiary": "2024-11-26 22:05:25 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:20 +0000"
     },
-    "done": true
+    "done": false
   },
-  "vinery:recipes/coarse_dirt_slab": {
+  "incendium:technical/on_kill": {
     "criteria": {
-      "has_coarse_dirt": "2024-11-26 22:12:59 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:20 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:recipes/misc/dragonscale_green_to_dragonscales_green": {
+  "incendium:technical/on_inventory_change": {
     "criteria": {
-      "has_dragonscale_green": "2024-11-26 22:19:12 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:20 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:recipes/misc/dragonscale_gray_to_dragonscales_gray": {
+  "incendium:technical/holy_wrath": {
     "criteria": {
-      "has_dragonscale_gray": "2024-11-26 22:19:16 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:20 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:recipes/misc/dragonscale_red_to_dragonscales_red": {
+  "incendium:technical/on_block": {
     "criteria": {
-      "has_dragonscale_red": "2024-11-26 22:19:19 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:20 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:recipes/misc/dragonscale_copper_to_dragonscales_copper": {
+  "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "has_dragonscale_copper": "2024-11-26 22:19:23 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:20 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:recipes/building_blocks/dragonforge_fire_core_disabled": {
+  "incendium:technical/feed_ghastling": {
     "criteria": {
-      "has_item": "2024-11-26 22:20:00 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:20 +0000"
     },
-    "done": true
+    "done": false
   },
-  "iceandfire:recipes/building_blocks/dragonforge_fire_input": {
+  "incendium:technical/firestorm": {
     "criteria": {
-      "has_item": "2024-11-26 22:20:00 +0000"
+      "log_spam_fixer": "2024-11-26 23:44:20 +0000"
     },
-    "done": true
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-11-26 23:44:20 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-11-26 23:44:20 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-11-26 23:44:20 +0000"
+    },
+    "done": false
   },
   "iceandfire:recipes/tools/dragonsteel_fire_shovel": {
     "criteria": {
@@ -12266,9 +12284,27 @@
     },
     "done": true
   },
+  "iceandfire:recipes/building_blocks/dragonforge_fire_core_disabled": {
+    "criteria": {
+      "has_item": "2024-11-26 22:20:00 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/building_blocks/dragonsteel_fire_ingot_to_dragonsteel_fire_block": {
     "criteria": {
       "has_dragonsteel_fire_ingot": "2024-11-26 22:45:31 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragonscale_green_to_dragonscales_green": {
+    "criteria": {
+      "has_dragonscale_green": "2024-11-26 22:19:12 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragonscale_gray_to_dragonscales_gray": {
+    "criteria": {
+      "has_dragonscale_gray": "2024-11-26 22:19:16 +0000"
     },
     "done": true
   },
@@ -12278,9 +12314,33 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/dragonscale_red_to_dragonscales_red": {
+    "criteria": {
+      "has_dragonscale_red": "2024-11-26 22:19:19 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonforge_fire_input": {
+    "criteria": {
+      "has_item": "2024-11-26 22:20:00 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_cyclops": {
+    "criteria": {
+      "killed_fire_dragon": "2024-11-26 22:01:17 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/tools/dragonsteel_fire_hoe": {
     "criteria": {
       "has_item": "2024-11-26 22:45:31 +0000"
+    },
+    "done": true
+  },
+  "vinery:recipes/coarse_dirt_slab": {
+    "criteria": {
+      "has_coarse_dirt": "2024-11-26 22:12:59 +0000"
     },
     "done": true
   },
@@ -12293,6 +12353,18 @@
   "iceandfire:recipes/tools/dragonsteel_fire_pickaxe": {
     "criteria": {
       "has_item": "2024-11-26 22:45:31 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragonscale_copper_to_dragonscales_copper": {
+    "criteria": {
+      "has_dragonscale_copper": "2024-11-26 22:19:23 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/gorgon_head": {
+    "criteria": {
+      "bestiary": "2024-11-26 22:05:25 +0000"
     },
     "done": true
   },
