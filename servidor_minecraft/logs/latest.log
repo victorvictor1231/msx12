@@ -1,0 +1,1521 @@
+[00:50:39] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.3
+[00:50:39] [ForkJoinPool-1-worker-2/WARN]: The mod "find" contains invalid entries in its mod json:
+- Unsupported root entry "LICENSE" at line 11 column 12
+[00:50:39] [ForkJoinPool-1-worker-4/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 12
+[00:50:39] [ForkJoinPool-1-worker-3/WARN]: Mod mr_reds_morestructures uses the version 1.0.8R which isn't compatible with Loader's extended semantic version format (Could not parse version number component '8R'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:50:39] [ForkJoinPool-1-worker-4/WARN]: Mod mr_dungeons_andtaverns uses the version 3.0.3.f which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'f'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:50:39] [ForkJoinPool-1-worker-4/WARN]: Mod ultris_mr uses the version 5.6.9c which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9c'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:50:39] [ForkJoinPool-1-worker-3/WARN]: Mod incapacitated uses the version 1.9.1LTS which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1LTS'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:50:39] [ForkJoinPool-1-worker-2/WARN]: Mod mr_stellarity uses the version 2.0e which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0e'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:50:39] [ForkJoinPool-1-worker-2/WARN]: Mod tectonic uses the version 2.4.1b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:50:39] [main/WARN]: Warnings were found!
+ - Mod '[Let's Do] Farm & Charm' (farm_and_charm) 1.0.4 conflicts with any version before 2.0.0 of mod '[Let's Do] Candlelight' (candlelight), which is present with the following versions: 1.2.13!
+	 - While this won't prevent you from starting the game, the developer(s) of mod '[Let's Do] Farm & Charm' (farm_and_charm) have found that this combination may cause issues. You should remove one of the mods or check for updates that resolve the issue.
+[00:50:39] [main/INFO]: Loading 278 mods:
+	- amendments 1.20-1.2.12
+	- animal_feeding_trough 1.1.0+1.20.1
+	- antique_atlas 2.10.0+1.20
+	- antiquelegacy 1.8
+	- aquamirae 6
+	- architectury 9.2.14
+	- attributefix 21.0.4
+	- awesomedungeonnether 3.1.1
+	- bakery 2.0.3
+	- barteringstation 8.0.0
+	- better_beacons 2.0.0
+	   \-- reach-entity-attributes 2.4.0
+	- bettertridents 8.0.1
+	- bosses_of_mass_destruction 1.7.5-1.20.1
+	   |-- maelstrom_library 1.6.1-1.20
+	   \-- multipart_entities 1.5-1.20
+	- bountiful 6.0.3+1.20.1
+	- brewery 2.0.3
+	- camping 1.0.4
+	- candlelight 1.2.13
+	- cardinal-components 5.2.2
+	   |-- cardinal-components-base 5.2.2
+	   |-- cardinal-components-block 5.2.2
+	   |-- cardinal-components-chunk 5.2.2
+	   |-- cardinal-components-entity 5.2.2
+	   |-- cardinal-components-item 5.2.2
+	   |-- cardinal-components-level 5.2.2
+	   |-- cardinal-components-scoreboard 5.2.2
+	   \-- cardinal-components-world 5.2.2
+	- cerbons_api 1.1.0
+	- chas 1.20
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- cobweb 1.0.0
+	- collective 7.87
+	- comforts 6.4.0+1.20.1
+	   \-- spectrelib 0.13.15+1.20.1
+	- copper-horns 1.0.2
+	- copper-rails 1.0.2
+	- copper_rails 1.2
+	- copperhopper 0.5.1+1.20.1
+	- coroutil 1.20.1-1.3.7
+	   \-- forgeconfigapiport 8.0.0
+	- create 0.5.1-f-build.1417+mc1.20.1
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.10-2
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- porting_lib_brewing 2.3.2+1.20.1
+	   |-- porting_lib_client_events 2.3.2+1.20.1
+	   |-- porting_lib_models 2.3.2+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.2+1.20.1
+	   |-- porting_lib_obj_loader 2.3.2+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.2+1.20.1
+	   |-- porting_lib_tags 3.0
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.62-MC1.20.1
+	        |-- porting_lib_data 2.1.1090+1.20
+	        |    \-- porting_lib_gametest 2.1.1090+1.20
+	        \-- porting_lib_model_generators 2.1.1090+1.20
+	             |-- porting_lib_gametest 2.1.1090+1.20
+	             \-- porting_lib_model_materials 2.1.1090+1.20
+	- create_structures 1.1.0
+	- ctimber 1.4.0
+	   \-- timber 1.4.0
+	- deeperdarker 1.3.2.1
+	   \-- customportalapi 0.0.1-beta64-1.20
+	- default_skill_trees 1.1
+	- diagonalfences 8.1.4
+	   \-- diagonalblocks 8.0.5
+	- diagonalwindows 8.1.4
+	   \-- diagonalblocks 8.0.5
+	- doapi 1.2.15
+	   \-- terraform-wood-api-v1 7.0.1
+	- dungeons_arise 2.1.57
+	- dungeons_arise_seven_seas 1.0.2
+	- dustydecorations 1.1-1.20.1+1.20.2
+	- easyanvils 8.0.2
+	- easymagic 8.0.1
+	- emotecraft 2.2.7-b.build.50
+	   \-- bendy-lib 4.0.0
+	- enchantinginfuser 8.0.3
+	- eugenes_horse_whistle 1.1.2
+	- explorify 1.6.2
+	- fabric-api 0.92.2+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.12.3+kotlin.2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.25.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.5.4
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.7.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.7.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.7.3
+	- fabricloader 0.16.3
+	   \-- mixinextras 0.4.1
+	- fabrictailor 2.1.2
+	   \-- config2brigadier 1.2.3
+	- farm_and_charm 1.0.4
+	   \-- blue_endless_jankson 1.2.3
+	- farmersdelight 1.20.1-2.2.0+refabricated
+	   |-- mm 2.3
+	   |-- porting_lib_accessors 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_base 2.3.4+1.20.1
+	   |    |-- porting_lib_attributes 2.3.4+1.20.1
+	   |    |-- porting_lib_common 2.3.4+1.20.1
+	   |    |-- porting_lib_core 2.3.4+1.20.1
+	   |    |-- porting_lib_entity 2.3.4+1.20.1
+	   |    |-- porting_lib_extensions 2.3.4+1.20.1
+	   |    |-- porting_lib_fluids 2.3.4+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.4+1.20.1
+	   |    |-- porting_lib_transfer 2.3.4+1.20.1
+	   |    |-- porting_lib_utility 2.3.4+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_config 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_lazy_registration 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_loot 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_networking 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_recipe_book_categories 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   \-- porting_lib_tool_actions 2.3.4+1.20.1
+	        \-- porting_lib_core 2.3.4+1.20.1
+	- flamearrows 1.20.1-12-fabric
+	- framework 0.6.16
+	   |-- org_javassist_javassist 3.29.2-GA
+	   \-- org_reflections_reflections 0.10.2
+	- furniture 1.0.3
+	- fusion 1.1.1
+	- fzzy_config 0.5.6+1.20.1
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- geckolib 4.4.9
+	   \-- com_eliotlash_mclib_mclib 20
+	- glitchcore 0.0.1.1
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- goated 1.20-1.3.4
+	- healing 1.3.5
+	- healingcampfire 6.1
+	- herbalbrews 1.0.8.1
+	- horsearmorstandmod 1.0.2-1.20.1
+	- horsebuff 2.1.2
+	   \-- fabric-screen-api-v1 2.0.6+b3afc78b27
+	- horseexpert 8.1.1
+	- horseinboat 1.1.4
+	- horseshoes 1.0.3
+	- iceandfire 0.7.1
+	- immersive_melodies 0.3.0+1.20.1
+	- incapacitated 1.9.1LTS
+	- incendium 5.3.5
+	- infinity-cave 0.4
+	- inventorio 1.10.3
+	   \-- conditional-mixin 0.6.2
+	- inventory_sort 1.2.4+1.20
+	- jade 11.8.0
+	- java 17
+	- jei 15.20.0.105
+	- jupiter 2.0
+	- kaffees_dual_ride 1.1.0
+	- kambrik 6.1.1+1.20.1
+	- leafmealone 1.0.1
+	- libraryferret 4.0.0
+	- lootr 0.7.33.81
+	- magistuarmory 9.16
+	- magistuarmoryaddon 1.10
+	- minecraft 1.20.1
+	- mob_catcher 1.4.2
+	- modernfix 5.19.5+mc1.20.1
+	- moonlight 1.20-2.13.25
+	- moremobvariants 1.3.1
+	- mr_dungeons_andtaverns 3.0.3.f
+	- mr_dungeons_andtavernsancientcityoverhaul 1
+	- mr_dungeons_andtavernspillageroutpostrework 1.1
+	- mr_dungeons_andtavernsstrongholdrework 1
+	- mr_dungeons_andtavernsswamphutrework 1
+	- mr_footprint_particles 3
+	- mr_reds_morestructures 1.0.8R
+	- mr_stellarity 2.0e
+	- mr_tidal_towns 1.3.3
+	- mr_villager_transportation 1.3.1
+	- mvs 4.1.2-1.20-fabric
+	- naturalist 4.0.3
+	- netherite_horse_armor 1.20.1-1.0.4
+	- niftycarts 20.1.3
+	- nullscape 1.2.7
+	- obscure_api 16
+	- onlyhammersandexcavators 1.20.1-0.3
+	- openpartiesandclaims 0.23.2
+	- owo 0.11.2+1.20
+	- pack_it_up 0.3.1+1.20.1
+	- philipsruins 1.20.1
+	- picohud 1.6.4+1.20
+	   \-- folk_sisby_kaleido-config 0.3.1+1.3.2
+	- player-animator 1.0.2-rc1+1.20
+	- puffish_attributes 0.6.2
+	- puffish_skills 0.14.2
+	- puzzleslib 8.1.24
+	   \-- puzzlesaccessapi 8.0.7
+	- radiantgear 2.1.6+1.20.1
+	- ranged_weapon_api 1.1.4+1.20.1
+	- reacharound 1.3.1
+	- rechiseled 1.1.6
+	- resourcefullib 2.1.29
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- seasons 2.4.2-BETA+1.20
+	- simple_copper_pipes 2.0.3
+	   \-- frozenlib 1.9.3-mc1.20.1
+	- slavicarmory 1.5
+	- smallships 2.0.0-b1.4
+	- soulsweapons 1.1.5-1.20.1-fabric
+	- subtle_effects 1.5.0
+	- superbsteeds 1.20-4
+	- supermartijn642configlib 1.1.8+a
+	- supermartijn642corelib 1.1.17+a
+	- supplementaries 1.20-3.1.5
+	   \-- mixinsquared 0.1.1
+	- surveyor 0.6.25+1.20
+	   \-- folk_sisby_kaleido-config 0.3.1+1.3.2
+	- sushi_bar 0.2.2+1.20
+	   \-- com_moulberry_mixinconstraints 1.0.1
+	- teamgui 1.0.0
+	   \-- midnightlib 1.4.1
+	- tectonic 2.4.1b
+	- terralith 2.5.4
+	- torch_hit 7.0.0
+	- torchesntrinkets 0.2.1-1.20.1-4
+	- treechop 0.19.0
+	- trinkets 3.7.2
+	- ultris_mr 5.6.9c
+	- uranus 1.7.1
+	   \-- sponsor_core 1.0.0
+	- vanityslots 1.2.9
+	- vc_gliders 1.1.6
+	   \-- palladiumcore 1.20-2.0.0.0
+	- vinery 1.4.28
+	- watching 1.9.2
+	- watut 1.20.1-1.1.3
+	   \-- forgeconfigapiport 8.0.0
+	- weaponmaster_ydm 4.2.3
+	- yigd 2.0.10
+	   \-- libgui 8.1.1+1.20.1
+	        |-- jankson 6.0.0+j1.2.3
+	        \-- libninepatch 1.2.0
+	- yungsapi 1.20-Fabric-4.0.6
+[00:50:40] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/msx12/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:50:40] [main/INFO]: Compatibility level set to JAVA_17
+[00:50:40] [main/WARN]: Reference map 'CerbonsAPI-Fabric-1.20.1-fabric-refmap.json' for cerbons_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:50:40] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:50:40] [main/WARN]: Reference map 'ctimber-1.4.0+1.20.1-refmap.json' for ctimber.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:50:40] [main/WARN]: Reference map 'goated-fabric-refmap.json' for goated.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:50:40] [main/WARN]: Reference map 'horsearmorstandmod-refmap.json' for horsearmorstandmod.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:50:41] [main/INFO]: Loaded configuration file for ModernFix 5.19.5+mc1.20.1: 61 options available, 0 override(s) found
+[00:50:41] [main/INFO]: Applying Nashorn fix
+[00:50:41] [main/WARN]: Reference map 'philipsruins-refmap.json' for philipsruins.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:50:41] [main/WARN]: Reference map 'rechiseled.mixins.refmap.json' for rechiseled.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:50:41] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:50:41] [main/WARN]: Reference map 'torch_hit.refmap.json' for torch_hit.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:50:41] [main/WARN]: Reference map 'torch_hit.refmap.json' for torch_hit.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:50:41] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[00:50:41] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[00:50:41] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[00:50:42] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
+[00:50:42] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
+[00:50:42] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
+[00:50:42] [main/WARN]: Error loading class: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1 (java.lang.ClassNotFoundException: com/beansgalaxy/backpacks/compat/TrinketsRegistry$1)
+[00:50:42] [main/WARN]: Error loading class: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket (java.lang.ClassNotFoundException: com/tiviacz/travelersbackpack/compat/trinkets/TravelersBackpackTrinket)
+[00:50:42] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[00:50:42] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[00:50:42] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[00:50:42] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[00:50:44] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$dad000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[00:50:46] [main/WARN]: @Final field field_17378:Lnet/minecraft/class_3913; in better_beacons-common.mixins.json:block_entity.BeaconBlockEntityMixin from mod better_beacons should be final
+[00:50:46] [main/WARN]: @Final field field_11801:[[Lnet/minecraft/class_1291; in better_beacons-common.mixins.json:block_entity.BeaconBlockEntityMixin from mod better_beacons should be final
+[00:50:46] [main/WARN]: @Final field field_11798:Ljava/util/Set; in better_beacons-common.mixins.json:block_entity.BeaconBlockEntityMixin from mod better_beacons should be final
+[00:50:46] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on better_beacons-common.mixins.json:block_entity.BeaconBlockEntityMixin from mod better_beacons::handler$zil000$better_beacons$bb_applyTertiaryEffects exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[00:50:46] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin from mod palladiumcore::handler$cpe001$palladiumcore$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[00:50:48] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[00:50:49] [main/INFO]: Vanilla bootstrap took 5770 milliseconds
+[00:50:49] [main/INFO]: fabric loader environment detected
+[00:50:49] [main/INFO]: Reflections took 4 ms to scan 0 urls, producing 0 keys and 0 values
+[00:50:50] [main/INFO]: Loaded config amendments-common.json
+[00:50:50] [main/INFO]: [Animal Feeding Trough] Load Complete! Enjoy :D
+[00:50:50] [main/INFO]: [STDOUT]: Hello from Epic Knights: Antique Legacy init!
+[00:50:54] [main/INFO]: Constructing common components for barteringstation:main
+[00:50:54] [main/INFO]: Constructing common components for bettertridents:main
+[00:50:54] [main/INFO]: Loading common config for bettertridents
+[00:50:54] [main/INFO]: Common init
+[00:50:54] [main/INFO]: Registering C2S receiver with id brewery:alcohol_sync_request
+[00:50:54] [main/INFO]: Registering C2S receiver with id brewery:drink_alcohol
+[00:50:54] [main/INFO]: Registering C2S receiver with id camping:open_backpack
+[00:50:54] [main/INFO]: Registering C2S receiver with id camping:open_ender_chest
+[00:50:54] [main/INFO]: Registering C2S receiver with id camping:open_ender_chest
+[00:50:54] [main/INFO]: Registering C2S receiver with id candlelight:typewriter_sync
+[00:50:54] [main/INFO]: Registering C2S receiver with id candlelight:sign_note
+[00:50:54] [main/INFO]: Loading Collective version 7.87.
+[00:50:54] [main/INFO]: Loaded C2B lib.
+[00:50:54] [main/INFO]: Hello Fabric world!
+[00:50:54] [main/INFO]: [CopperHopper] Configuration loaded: {}
+[00:50:54] [main/INFO]: [CopperHopper] Initialized.
+[00:50:57] [main/INFO]: Bypassed Mojang DFU
+[00:50:57] [main/INFO]: Instantiating Mojang DFU
+[00:50:57] [main/ERROR]: No data fixer registered for crystallized_amber
+[00:50:57] [main/INFO]: Constructing common components for diagonalblocks:main
+[00:50:57] [main/INFO]: Constructing common components for diagonalfences:main
+[00:50:58] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 421ms
+[00:50:58] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 86ms
+[00:50:58] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 75ms
+[00:50:58] [main/INFO]: Constructing common components for diagonalwindows:main
+[00:50:58] [main/INFO]: Constructing shapes for DiagonalGlassPaneBlock[NodeWidth=1.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 18ms
+[00:50:59] [main/INFO]: Hello Fabric world!
+[00:50:59] [main/INFO]: Registering Item Groups for dustydecorations
+[00:50:59] [main/INFO]: Registering Mod items for dustydecorations
+[00:50:59] [main/INFO]: Registering ModBlocks for dustydecorations
+[00:50:59] [main/INFO]: Constructing common components for easyanvils:main
+[00:50:59] [main/INFO]: Constructing common components for easymagic:main
+[00:50:59] [main/INFO]: Constructing common components for enchantinginfuser:main
+[00:50:59] [main/INFO]: Initializing EugenesHorseWhistle
+[00:51:00] [main/INFO]: Registering Particles for frozenlib
+[00:51:00] [main/INFO]: Loading config FrozenLibConfig from frozenlib
+[00:51:00] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[00:51:00] [main/INFO]: Initializing HealingMod
+[00:51:00] [main/INFO]: Initialize horsearmorstandmod
+[00:51:00] [main/INFO]: Registering Mod Items for horsearmorstandmod
+[00:51:00] [main/INFO]: Registering Mod Entities forhorsearmorstandmod
+[00:51:00] [main/INFO]: Horse Buff Initialized
+[00:51:00] [main/INFO]: Constructing common components for horseexpert:main
+[00:51:00] [main/INFO]: Ice And Fire common config version match.
+[00:51:01] [main/INFO]: Skipping mod integration for Clumps
+[00:51:01] [main/INFO]: 1 Jupiter entrypoint(s) detected: jupiter:jupiter
+[00:51:01] [main/INFO]: Initialize mod Library Ferret
+[00:51:01] [main/INFO]: Initialized mod Library Ferret
+[00:51:01] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[00:51:01] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[00:51:01] [main/INFO]: [STDOUT]: Hello from Epic Knights Addon init!
+[00:51:01] [main/INFO]: Definitely not up to no good
+[00:51:01] [main/INFO]: Giving mobs a fresh coat of paint...
+[00:51:01] [main/INFO]: Registering Item Groups for onlyhammersandexcavators
+[00:51:01] [main/INFO]: as a based person once said: it doesn't have to be balanced unless you're making a pvp focused mod
+[00:51:02] [main/INFO]: Constructing common components for puzzleslib:main
+[00:51:02] [main/INFO]: [Fabric Seasons] Trying to read config file...
+[00:51:02] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
+[00:51:02] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
+[00:51:02] [main/INFO]: Loading config SimpleCopperPipesConfig from simple_copper_pipes
+[00:51:02] [main/INFO]: Saving config SimpleCopperPipesConfig from simple_copper_pipes
+[00:51:02] [main/INFO]: [STDOUT]: Hello from Epic Knights Addon init!
+[00:51:02] [main/INFO]: Config initialized!
+[00:51:02] [main/INFO]: Successfully initialized Geckolib!
+[00:51:03] [main/INFO]: Successfully registered SoulsWeapons content!
+[00:51:03] [main/INFO]: Successfully registered built-in 2D model resourcepack!
+[00:51:03] [main/INFO]: Successfully registered built-in Legacy 2D Models resourcepack!
+[00:51:03] [main/INFO]: Successfully registered built-in Legacy 3D Models resourcepack!
+[00:51:03] [main/INFO]: Successfully registered built-in Fresh Animations Compat. resourcepack!
+[00:51:03] [main/INFO]: Initializing done, time taken: 193ms
+[00:51:03] [Thread-4/INFO]: Starting to fetch sponsor list.
+[00:51:03] [main/INFO]: Loaded config supplementaries-common.json
+[00:51:03] [Thread-4/INFO]: Successfully fetch sponsor list.
+[00:51:03] [main/INFO]: [Surveyor] is not a map mod
+[00:51:03] [main/INFO]: Sushi of the day: Red dragon roll
+[00:51:03] [main/INFO]: !?
+[00:51:03] [main/INFO]: Registering Mod Items for torchesntrinkets
+[00:51:03] [main/INFO]: Registering Item Groups fortorchesntrinkets
+[00:51:03] [main/INFO]: [STDOUT]: Initialize WeaponMaster
+[00:51:03] [main/INFO]: Reflections took 50 ms to scan 1 urls, producing 1 keys and 4 values
+[00:51:03] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
+[00:51:04] [main/INFO]: Initialized block sets in 15ms
+[00:51:04] [main/INFO]: Initialized color sets in 68ms
+[00:51:04] [main/INFO]: Finished mod setup in: [22, 0, 0, 0, 0, 0, 13, 5, 1] ms
+[00:51:04] [main/INFO]: Loading Open Parties and Claims!
+[00:51:05] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:51:05] [main/INFO]: Generated runtime SERVER_DATA for pack Goated Generated Pack (goated) in: 5 ms
+[00:51:05] [main/INFO]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 26 ms
+[00:51:05] [main/ERROR]: Invalid path in mod resource-pack mr_stellarity: fokastudio:worldgen/biome/README.md, ignoring
+[00:51:06] [main/INFO]: Structure placement for `awesomedungeonnether:nth_absi_palace/start_pool`: { spacing: 50, separation: 25, salt: 19482856, useValueFromConfiguration: true}
+[00:51:06] [main/INFO]: Structure placement for `awesomedungeonnether:nth_accum_quad/start_pool`: { spacing: 50, separation: 25, salt: 28482856, useValueFromConfiguration: true}
+[00:51:06] [main/INFO]: Structure placement for `awesomedungeonnether:nth_blaze_tower/start_pool`: { spacing: 50, separation: 25, salt: 37482856, useValueFromConfiguration: true}
+[00:51:06] [main/INFO]: Structure placement for `awesomedungeonnether:nth_center_square/start_pool`: { spacing: 50, separation: 25, salt: 46482856, useValueFromConfiguration: true}
+[00:51:06] [main/INFO]: Structure placement for `awesomedungeonnether:nth_giant_crimson_tree/start_pool`: { spacing: 50, separation: 25, salt: 55482856, useValueFromConfiguration: true}
+[00:51:06] [main/INFO]: Structure placement for `awesomedungeonnether:nth_obsi_house/start_pool`: { spacing: 50, separation: 25, salt: 64482856, useValueFromConfiguration: true}
+[00:51:07] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[00:51:07] [main/INFO]: Adding serverside commands..
+[00:51:08] [Worker-Main-1/ERROR]: Couldn't load tag copper-horns:screaming_copper_horns as it is missing following references: copper-horns:sweet_copper_horn (from fabric), copper-horns:fearless_copper_horn (from fabric), copper-horns:secret_copper_horn (from fabric), copper-horns:fresh_copper_horn (from fabric)
+[00:51:08] [Worker-Main-1/ERROR]: Couldn't load tag copper-horns:regular_copper_horns as it is missing following references: copper-horns:great_copper_horn (from fabric), copper-horns:old_copper_horn (from fabric), copper-horns:pure_copper_horn (from fabric), copper-horns:dry_copper_horn (from fabric), copper-horns:mumble_copper_horn (from fabric), copper-horns:clear_copper_horn (from fabric)
+[00:51:08] [Worker-Main-1/ERROR]: Couldn't load tag copper-horns:copper_horns as it is missing following references: #copper-horns:regular_copper_horns (from fabric), #copper-horns:screaming_copper_horns (from fabric)
+[00:51:08] [Worker-Main-3/ERROR]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" ac","aca","ba "],"key":{"a":{"tag":"c:steel_nuggets"},"b":{"tag":"c:wooden_rods"},"c":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:barbedclub","count":1}}]
+[00:51:08] [Worker-Main-3/ERROR]: Couldn't read tag list c:barbedclub from c:tags/items/barbedclub.json in data pack fabric
+java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":[" ac","aca","ba "],"key":{"a":{"tag":"c:steel_nuggets"},"b":{"tag":"c:wooden_rods"},"c":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:barbedclub","count":1}}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3503.method_33174(class_3503.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3503.method_33176(class_3503.java:128) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3505.method_33181(class_3505.java:65) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[00:51:08] [Worker-Main-3/ERROR]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":["ccc","cbc"," a "],"key":{"a":{"tag":"magistuarmory:hilts"},"b":{"tag":"c:wooden_rods"},"c":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:blacksmith_hammer","count":1}}]
+[00:51:08] [Worker-Main-3/ERROR]: Couldn't read tag list c:blacksmith_hammer from c:tags/items/blacksmith_hammer.json in data pack fabric
+java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":["ccc","cbc"," a "],"key":{"a":{"tag":"magistuarmory:hilts"},"b":{"tag":"c:wooden_rods"},"c":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:blacksmith_hammer","count":1}}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3503.method_33174(class_3503.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3503.method_33176(class_3503.java:128) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3505.method_33181(class_3505.java:65) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[00:51:08] [Worker-Main-3/ERROR]: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":["bab"," a "," a "],"key":{"a":{"tag":"c:wooden_rods"},"b":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:pitchfork","count":1}}]
+[00:51:08] [Worker-Main-3/ERROR]: Couldn't read tag list c:pitchfork from c:tags/items/pitchfork.json in data pack fabric
+java.lang.RuntimeException: No key values in MapLike[{"type":"minecraft:crafting_shaped","pattern":["bab"," a "," a "],"key":{"a":{"tag":"c:wooden_rods"},"b":{"tag":"c:steel_ingots"}},"result":{"item":"magistuarmory:pitchfork","count":1}}]
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3503.method_33174(class_3503.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3503.method_33176(class_3503.java:128) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3505.method_33181(class_3505.java:65) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[00:51:08] [Worker-Main-3/ERROR]: Couldn't load tag forge:grapes as it is missing following references: minecraft:red_grape (from fabric), minecraft:white_grape (from fabric), minecraft:savanna_grapes_red (from fabric), minecraft:savanna_grapes_white (from fabric), minecraft:taiga_grapes_red (from fabric), minecraft:taiga_grapes_white (from fabric), minecraft:jungle_grapes_red (from fabric), minecraft:jungle_grapes_white (from fabric)
+[00:51:08] [Worker-Main-3/ERROR]: Couldn't load tag magistuarmory:darkening_templates as it is missing following references: magistuarmoryaddon:darkening_template (from fabric)
+[00:51:08] [Worker-Main-3/ERROR]: Couldn't load tag c:grapes as it is missing following references: minecraft:red_grape (from fabric), minecraft:white_grape (from fabric), minecraft:savanna_grapes_red (from fabric), minecraft:savanna_grapes_white (from fabric), minecraft:taiga_grapes_red (from fabric), minecraft:taiga_grapes_white (from fabric), minecraft:jungle_grapes_red (from fabric), minecraft:jungle_grapes_white (from fabric)
+[00:51:08] [Worker-Main-3/ERROR]: Couldn't load tag magistuarmory:gilding_templates as it is missing following references: magistuarmoryaddon:gilding_template (from fabric)
+[00:51:08] [Worker-Main-3/ERROR]: Couldn't load tag c:silver_nuggets as it is missing following references: magistuarmoryaddon:silver_nugget (from fabric)
+[00:51:08] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:screaming_goat_horns as it is missing following references: minecraft:admire_goat_horn (from vanilla), minecraft:call_goat_horn (from vanilla), minecraft:yearn_goat_horn (from vanilla), minecraft:dream_goat_horn (from vanilla)
+[00:51:08] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:regular_goat_horns as it is missing following references: minecraft:ponder_goat_horn (from vanilla), minecraft:sing_goat_horn (from vanilla), minecraft:seek_goat_horn (from vanilla), minecraft:feel_goat_horn (from vanilla)
+[00:51:08] [Worker-Main-2/ERROR]: Couldn't load tag minecraft:goat_horns as it is missing following references: #minecraft:regular_goat_horns (from vanilla), #minecraft:screaming_goat_horns (from vanilla)
+[00:51:10] [Worker-Main-3/ERROR]: Couldn't parse element loot_tables:dustydecorations:blocks/pot
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dustydecorations:pot'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[00:51:11] [main/INFO]: Successfully modified loot table: 'minecraft:chests/bastion_treasure'
+[00:51:12] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:lion_sallet
+com.google.gson.JsonSyntaxException: Unknown item 'magistuarmoryaddon:lion_sallet'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_35228(class_1869.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:293) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:279) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:51:12] [main/ERROR]: Parsing error loading recipe slavicarmory:lamellar_mail_breastplate
+com.google.gson.JsonSyntaxException: Unknown item 'slavicarmory:lamellar_mail_breastplate'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_35228(class_1869.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:293) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:279) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:51:12] [main/ERROR]: Parsing error loading recipe antiquelegacy:furnace/bronze_nugget_blasting
+com.google.gson.JsonSyntaxException: Unknown item 'antiquelegacy:left_gladiator_shoulder_pad'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:160) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8090(class_1856.java:149) ~[server-intermediary.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.ArrayList$Itr.forEachRemaining(ArrayList.java:1003) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?]
+	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?]
+	at net.minecraft.class_1856.<init>(class_1856.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8092(class_1856.java:105) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:149) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3957.method_17736(class_3957.java:30) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3957.method_8121(class_3957.java:11) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:51:12] [main/ERROR]: Parsing error loading recipe supplementaries:integration/lapis_bricks_fd
+com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+	at net.minecraft.class_1856.method_8107(class_1856.java:167) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_52177(class_1856.java:135) ~[server-intermediary.jar:?]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.fromJson(CuttingBoardRecipe.java:176) ~[FarmersDelight-1.20.1-2.2.0+refabricated.jar:?]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.method_8121(CuttingBoardRecipe.java:166) ~[FarmersDelight-1.20.1-2.2.0+refabricated.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:51:12] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:furnace/steel_nugget_blasting
+com.google.gson.JsonSyntaxException: Unknown item 'magistuarmoryaddon:steel_dueling_shield'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:160) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8090(class_1856.java:149) ~[server-intermediary.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.ArrayList$Itr.forEachRemaining(ArrayList.java:1003) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?]
+	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?]
+	at net.minecraft.class_1856.<init>(class_1856.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8092(class_1856.java:105) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:149) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3957.method_17736(class_3957.java:30) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3957.method_8121(class_3957.java:11) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:51:12] [main/ERROR]: Parsing error loading recipe thecopperrail:copper_rail
+com.google.gson.JsonSyntaxException: Unknown item 'thecopperrail:copper_rail'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_35228(class_1869.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:293) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:279) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:51:12] [main/ERROR]: Parsing error loading recipe antiquelegacy:mars_of_todi_thorax
+com.google.gson.JsonSyntaxException: Unknown item 'antiquelegacy:mars_of_todi_thorax'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_35228(class_1869.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8164(class_1869.java:293) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869$class_1870.method_8121(class_1869.java:279) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:51:12] [main/ERROR]: Parsing error loading recipe antiquelegacy:furnace/gold_nugget_blasting
+com.google.gson.JsonSyntaxException: Unknown item 'antiquelegacy:golden_laurel_wreath'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:160) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8090(class_1856.java:149) ~[server-intermediary.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.ArrayList$Itr.forEachRemaining(ArrayList.java:1003) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?]
+	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?]
+	at net.minecraft.class_1856.<init>(class_1856.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8092(class_1856.java:105) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:149) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3957.method_17736(class_3957.java:30) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3957.method_8121(class_3957.java:11) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:51:12] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:silvered_dark_bellows_maximilian_helmet_silvering
+com.google.gson.JsonSyntaxException: Missing field template
+	at net.minecraft.class_3518.method_52226(class_3518.java:110) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8060$class_8061.method_48455(class_8060.java:87) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8060$class_8061.method_8121(class_8060.java:84) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:51:12] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:silvered_dark_half_armor_silvering
+com.google.gson.JsonSyntaxException: Missing field template
+	at net.minecraft.class_3518.method_52226(class_3518.java:110) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8060$class_8061.method_48455(class_8060.java:87) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8060$class_8061.method_8121(class_8060.java:84) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:51:12] [main/ERROR]: Parsing error loading recipe slavicarmory:gilded_lamellar_breastplate_gilding
+com.google.gson.JsonSyntaxException: Unknown item 'magistuarmory:lamellar_breastplate'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:160) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_52177(class_1856.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8060$class_8061.method_48455(class_8060.java:88) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8060$class_8061.method_8121(class_8060.java:84) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:51:12] [main/ERROR]: Parsing error loading recipe antiquelegacy:furnace/iron_nugget_blasting
+com.google.gson.JsonSyntaxException: Unknown item 'antiquelegacy:iron_left_hand_manika'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:160) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8090(class_1856.java:149) ~[server-intermediary.jar:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.ArrayList$Itr.forEachRemaining(ArrayList.java:1003) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?]
+	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?]
+	at net.minecraft.class_1856.<init>(class_1856.java:43) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8092(class_1856.java:105) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:149) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3957.method_17736(class_3957.java:30) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3957.method_8121(class_3957.java:11) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:51:12] [main/ERROR]: Parsing error loading recipe supplementaries:integration/ash_bricks_fd
+com.google.gson.JsonParseException: An ingredient entry needs either a tag or an item
+	at net.minecraft.class_1856.method_8107(class_1856.java:167) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_52177(class_1856.java:135) ~[server-intermediary.jar:?]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.fromJson(CuttingBoardRecipe.java:176) ~[FarmersDelight-1.20.1-2.2.0+refabricated.jar:?]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.method_8121(CuttingBoardRecipe.java:166) ~[FarmersDelight-1.20.1-2.2.0+refabricated.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:51:12] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:silvered_dark_chestplate_silvering
+com.google.gson.JsonSyntaxException: Missing field template
+	at net.minecraft.class_3518.method_52226(class_3518.java:110) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8060$class_8061.method_48455(class_8060.java:87) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8060$class_8061.method_8121(class_8060.java:84) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.3.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[00:51:12] [main/INFO]: Loaded 40 recipes
+[00:51:12] [main/ERROR]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: command.unknown.command at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: command.unknown.command at position 0: <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[00:51:12] [main/INFO]: Loaded 4806 advancements
+[00:51:12] [main/INFO]: Trying to load unloaded files from: config/bountiful/bounty_pools
+[00:51:12] [main/INFO]: Trying to load unloaded files from: config/bountiful/bounty_decrees
+[00:51:12] [main/INFO]: Ice And Fire common config version match.
+[00:51:12] [main/INFO]: Successfully reload 2 server config(s).
+[00:51:12] [main/INFO]: Reloading config...
+[00:51:12] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:ash_from_burning_mobs - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[00:51:12] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:straw_from_flax - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[00:51:12] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[00:51:12] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[00:51:12] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:replace_rope - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: supplementaries:replace_rope
+[00:51:12] [main/INFO]: Loaded 44 chiseling recipes
+[00:51:12] [main/INFO]: [Fabric Seasons] Successfully loaded 15 custom crop configs.
+[00:51:12] [main/INFO]: Loaded 27 flute songs
+[00:51:12] [main/INFO]: Reloading grave shape (server)
+[00:51:12] [main/INFO]: Grave model and shape reload successful (server)
+[00:51:12] [main/INFO]: Reloading YIGD graveyard data (server)
+[00:51:12] [main/INFO]: Graveyard data successfully reloaded (server)
+[00:51:12] [main/INFO]: Reloading YIGD grave area overrides (server)
+[00:51:12] [main/INFO]: Grave area overrides successfully reloaded (server)
+[00:51:12] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: 1_splatus:spellbound/hot
+[00:51:12] [main/INFO]: Applied 7 data villager trades
+[00:51:12] [main/INFO]: Finished additional setup in 0 ms
+[00:51:13] [main/INFO]: Applied 3229 biome modifications to 175 of 211 new biomes in 61.05 ms
+[00:51:13] [Server thread/INFO]: Loading server config for barteringstation
+[00:51:13] [Thread-2/INFO]: Reloading server config for barteringstation
+[00:51:13] [Thread-2/INFO]: Reloading server config for barteringstation
+[00:51:13] [Server thread/INFO]: Loading server config for bettertridents
+[00:51:13] [Server thread/INFO]: Loading server config for easyanvils
+[00:51:13] [Thread-2/INFO]: Reloading server config for easyanvils
+[00:51:13] [Server thread/INFO]: Loading server config for easymagic
+[00:51:13] [Thread-2/INFO]: Reloading server config for easyanvils
+[00:51:13] [Server thread/INFO]: Loading server config for enchantinginfuser
+[00:51:13] [Thread-2/INFO]: Reloading server config for enchantinginfuser
+[00:51:13] [Thread-2/INFO]: Reloading server config for enchantinginfuser
+[00:51:13] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: plains
+[00:51:13] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
+[00:51:13] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
+[00:51:13] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
+[00:51:13] [Server thread/INFO]: Registering Bounty Board Jigsaw Piece for Village Type: desert
+[00:51:13] [Server thread/INFO]: Loading server configs...
+[00:51:13] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry is about to freeze
+[00:51:13] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry was frozen
+[00:51:13] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
+[00:51:13] [Server thread/INFO]: [puffish_skills] Data pack `puffish_skills` loaded successfully!
+[00:51:13] [Server thread/INFO]: Saving config FrozenLibConfig from frozenlib
+[00:51:13] [Server thread/INFO]: Saving config SimpleCopperPipesConfig from simple_copper_pipes
+[00:51:13] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[00:51:13] [Server thread/INFO]: Loading properties
+[00:51:13] [Server thread/INFO]: Default game type: SURVIVAL
+[00:51:13] [Server thread/INFO]: Generating keypair
+[00:51:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:51:13] [Server thread/INFO]: Using epoll channel type
+[00:51:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:51:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:51:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:51:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:51:13] [Server thread/INFO]: Preparing level "world"
+[00:51:13] [Server thread/INFO]: Initializing Open Parties and Claims for the server...
+[00:51:13] [Server thread/INFO]: Loading server info!
+[00:51:13] [Server thread/INFO]: Loading player configs...
+[00:51:13] [Server thread/INFO]: Loaded player configs!
+[00:51:13] [Server thread/INFO]: Loading parties...
+[00:51:13] [Server thread/INFO]: Loaded parties!
+[00:51:13] [Server thread/INFO]: Fixing party inconsistencies...
+[00:51:14] [Server thread/INFO]: Registered party system for OPAC: default
+[00:51:14] [Server thread/INFO]: Registered permission system for OPAC: permission_api
+[00:51:14] [Server thread/INFO]: [Surveyor] Loading data for minecraft:overworld
+[00:51:16] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:overworld
+[00:51:17] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_nether
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[00:51:17] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_nether
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:51:17] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:51:17] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_end
+[00:51:17] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_end
+[00:51:17] [Server thread/INFO]: [Surveyor] Loading data for deeperdarker:otherside
+[00:51:17] [Server thread/INFO]: [Surveyor] Finished loading data for deeperdarker:otherside
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:51:17] [Netty Epoll Server IO #2/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:51:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:51:19] [Server thread/INFO]: menu.preparingSpawn
+[00:51:19] [Server thread/INFO]: menu.preparingSpawn
+[00:51:19] [Server thread/INFO]: menu.preparingSpawn
+[00:51:19] [Server thread/INFO]: menu.preparingSpawn
+[00:51:19] [Server thread/INFO]: menu.preparingSpawn
+[00:51:20] [Server thread/INFO]: menu.preparingSpawn
+[00:51:22] [Server thread/INFO]: Time elapsed: 4256 ms
+[00:51:22] [Server thread/INFO]: Done (8.261s)! For help, type "help"
+[00:51:22] [Server thread/WARN]: Dedicated server took 44.182 seconds to load
+[00:51:22] [Server thread/INFO]: Start loading plugin from Ice And Fire
+[00:51:22] [Server thread/INFO]: Start loading plugin from Jade
+[00:51:22] [Server thread/INFO]: Start loading plugin from Jade
+[00:51:22] [Server thread/INFO]: Start loading plugin from Jade
+[00:51:22] [Server thread/INFO]: Start loading plugin from Supplementaries
+[00:51:22] [Server thread/INFO]: Start loading plugin from HT's TreeChop
+[00:51:22] [Server thread/INFO]: [Surveyor] Loading data for minecraft:server_faucet_test_level
+[00:51:22] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:server_faucet_test_level
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:51:23] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:51:30] [Worker-Main-2/WARN]: Empty height range: biased[-3 absolute--5 absolute inner: 1]
+[00:51:31] [Worker-Main-3/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:51:39] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:51:39] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:51:40] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:51:40] [Netty Epoll Server IO #5/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:51:41] [Netty Epoll Server IO #7/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:51:41] [Netty Epoll Server IO #1/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2540.readByte(class_2540.java:1303)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2540.method_10816(class_2540.java:530)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2889.<init>(class_2889.java:27)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:459)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2539.method_10783(class_2539.java:522)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_2543.decode(class_2543.java:32)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at net.minecraft.class_3238.channelRead(class_3238.java:95)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:51:42] [Netty Epoll Server IO #3/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[00:51:42] [Server thread/INFO]: Loaded values for 31 compatible attributes.
+[00:51:42] [Server thread/INFO]: Loaded 31 values from config.
+[00:51:42] [Server thread/INFO]: Saving config file. 31 entries.
+[00:51:42] [Server thread/INFO]: Applying changes for 31 attributes.
+[00:51:42] [Server thread/INFO]: Loading claims...
+[00:51:42] [Server thread/INFO]: Loaded claims in 7ms
+[00:51:42] [Server thread/WARN]: The configured permission system "prometheus" isn't registered!
+[00:51:42] [Server thread/INFO]: Configured OPAC to use the following permission system: permission_api
+[00:51:42] [Server thread/WARN]: The configured primary party system "argonauts_guilds" isn't registered!
+[00:51:42] [Server thread/INFO]: Configured OPAC to use the following party system as primary: default
+[00:51:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20775ms or 415 ticks behind
+[00:51:46] [Server thread/INFO]: venusgiuse[/127.33.127.42:56601] logged in with entity id 202 at (11070.23148354094, 64.0, -7157.535232846393)
+[00:51:46] [Server thread/INFO]: Sending server config values to client
+[00:51:46] [Server thread/INFO]: Syncing config to venusgiuse (72277dd0-c77e-3a30-aeff-76093ad8e5c9)
+[00:51:47] [Server thread/INFO]: [Surveyor] Loading data for minecraft:server_projectile_test_level
+[00:51:47] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:server_projectile_test_level
+[00:51:47] [Netty Epoll Server IO #0/INFO]: Receiving client config
+[00:51:49] [Netty Epoll Server IO #0/INFO]: Priority overwritten for player venusgiuse. Claiming: GRAVE / Robbing: INVENTORY
+[00:51:54] [Worker-Main-3/WARN]: Empty height range: biased[-3 absolute--5 absolute inner: 1]
+[00:51:54] [Worker-Main-1/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
+[00:52:04] [Server thread/INFO]: multiplayer.player.joined
+[00:52:04] [Server thread/INFO]: Updating all forceload tickets for 72277dd0-c77e-3a30-aeff-76093ad8e5c9
+[00:52:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23090ms or 461 ticks behind
+[00:52:53] [Worker-Main-1/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
+[00:53:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2538ms or 50 ticks behind
+[00:54:56] [Server thread/INFO]: TRECETRECETRECE[/127.202.206.192:48737] logged in with entity id 13500 at (-2797.316389188549, 96.0, -862.3831766630357)
+[00:54:56] [Server thread/INFO]: Sending server config values to client
+[00:54:56] [Server thread/INFO]: Syncing config to TRECETRECETRECE (723c0b61-1d01-371c-be4b-0b6817ec3f00)
+[00:54:56] [Server thread/INFO]: multiplayer.player.joined
+[00:54:56] [Server thread/INFO]: Updating all forceload tickets for 723c0b61-1d01-371c-be4b-0b6817ec3f00
+[00:54:56] [Netty Epoll Server IO #2/INFO]: Receiving client config
+[00:54:58] [Netty Epoll Server IO #2/INFO]: Priority overwritten for player TRECETRECETRECE. Claiming: GRAVE / Robbing: INVENTORY
+[00:55:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[00:55:07] [Worker-Main-2/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:mine_with_campsite/side_pool which is being called from mvs:other_decoration/mine_with_campsite
+[00:55:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10368ms or 207 ticks behind
+[00:56:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18634ms or 372 ticks behind
+[00:56:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16385ms or 327 ticks behind
+[00:57:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19767ms or 395 ticks behind
+[00:57:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21012ms or 420 ticks behind
+[00:58:14] [pool-5-thread-1/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / stellarity:village], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]] from pos class_2338{x=10437, y=67, z=-7243}
+[00:58:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25253ms or 505 ticks behind
+[00:58:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18776ms or 375 ticks behind
+[00:59:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20839ms or 416 ticks behind
+[01:00:10] [Worker-Main-2/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
+[01:00:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25298ms or 505 ticks behind
+[01:00:25] [Server thread/INFO]: chat.type.advancement.task
+[01:00:33] [Worker-Main-3/WARN]: Empty height range: biased[-3 absolute--5 absolute inner: 1]
+[01:00:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23192ms or 463 ticks behind
+[01:01:00] [pool-5-thread-2/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / stellarity:village], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]] from pos class_2338{x=10437, y=72, z=-7461}
+[01:01:01] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=10437, y=72, z=-7461} but found not block entity block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] at location
+[01:01:01] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] but failed at location class_2338{x=10437, y=72, z=-7461}
+[01:01:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28488ms or 569 ticks behind
+[01:01:43] [Server thread/WARN]: venusgiuse moved too quickly! 2.9297923511312547,1.2778765279333086,9.896737562687122
+[01:02:10] [Server thread/INFO]: Neeral[/127.166.77.49:36033] logged in with entity id 63462 at (1500.619707334342, 63.0, 730.623295153324)
+[01:02:10] [Server thread/INFO]: Sending server config values to client
+[01:02:10] [Server thread/INFO]: Syncing config to Neeral (f1417732-e9ee-3591-81b4-aedd2a10b638)
+[01:02:10] [Server thread/INFO]: multiplayer.player.joined
+[01:02:10] [Server thread/INFO]: Updating all forceload tickets for f1417732-e9ee-3591-81b4-aedd2a10b638
+[01:02:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22915ms or 458 ticks behind
+[01:02:14] [Netty Epoll Server IO #4/INFO]: Priority overwritten for player Neeral. Claiming: GRAVE / Robbing: INVENTORY
+[01:02:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29558ms or 591 ticks behind
+[01:03:13] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:03:16] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:03:27] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:03:30] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:03:38] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:03:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29693ms or 593 ticks behind
+[01:03:42] [Worker-Main-2/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
+[01:03:51] [Server thread/INFO]: Villager class_1646['Unemployed'/64380, l='ServerLevel[world]', x=1423.15, y=56.40, z=827.48] died, message: 'death.attack.inWall'
+[01:03:57] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:04:02] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:04:09] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:04:13] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:04:18] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:04:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30219ms or 604 ticks behind
+[01:04:36] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:04:42] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:05:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29213ms or 584 ticks behind
+[01:05:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25621ms or 512 ticks behind
+[01:06:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29172ms or 583 ticks behind
+[01:06:49] [Worker-Main-2/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:farm/side_pool which is being called from mvs:other_decoration/wooden_wheat_farm
+[01:07:10] [Worker-Main-1/WARN]: Empty height range: biased[-10 absolute--15 absolute inner: 1]
+[01:07:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29288ms or 585 ticks behind
+[01:07:45] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:07:49] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:08:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29527ms or 590 ticks behind
+[01:08:22] [pool-5-thread-3/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / stellarity:village], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna]] from pos class_2338{x=11621, y=69, z=-7205}
+[01:08:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31273ms or 625 ticks behind
+[01:08:59] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:09:31] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:09:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29156ms or 583 ticks behind
+[01:09:55] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:10:14] [Server thread/INFO]: chat.type.advancement.goal
+[01:10:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30424ms or 608 ticks behind
+[01:10:25] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:11:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28829ms or 576 ticks behind
+[01:11:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27485ms or 549 ticks behind
