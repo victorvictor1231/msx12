@@ -689,6 +689,7 @@
       "minecraft:sparse_jungle": "2024-11-24 22:02:43 +0000",
       "minecraft:river": "2024-11-22 22:17:41 +0000",
       "minecraft:lukewarm_ocean": "2024-11-26 23:43:31 +0000",
+      "minecraft:snowy_plains": "2024-12-01 03:20:21 +0000",
       "minecraft:snowy_taiga": "2024-11-26 03:24:39 +0000",
       "minecraft:cold_ocean": "2024-11-22 22:42:15 +0000",
       "minecraft:forest": "2024-11-22 22:32:55 +0000",
@@ -1285,6 +1286,7 @@
       "minecraft:husk": "2024-11-24 22:09:21 +0000",
       "minecraft:piglin": "2024-11-23 00:12:57 +0000",
       "minecraft:enderman": "2024-11-23 01:14:48 +0000",
+      "minecraft:stray": "2024-12-01 03:11:37 +0000",
       "minecraft:endermite": "2024-11-24 18:20:53 +0000",
       "minecraft:vex": "2024-11-24 21:10:50 +0000",
       "minecraft:zombie": "2024-11-22 22:18:46 +0000",
@@ -9151,9 +9153,21 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/armor_white_leggings": {
+    "criteria": {
+      "has_item": "2024-12-01 03:17:04 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_deepslate_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-12-01 03:01:41 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_white_helmet": {
+    "criteria": {
+      "has_item": "2024-12-01 03:17:04 +0000"
     },
     "done": true
   },
@@ -9175,6 +9189,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/building_blocks/dragonscales_white_to_dragonscale_white": {
+    "criteria": {
+      "has_dragonscales_white": "2024-12-01 03:17:04 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/small_deepslate_brick_slab_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-12-01 03:01:41 +0000"
@@ -9184,6 +9204,12 @@
   "create:recipes/building_blocks/cut_deepslate_stairs_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-12-01 03:01:41 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_white_chestplate": {
+    "criteria": {
+      "has_item": "2024-12-01 03:17:04 +0000"
     },
     "done": true
   },
@@ -9229,15 +9255,33 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/armor_white_boots": {
+    "criteria": {
+      "has_item": "2024-12-01 03:17:04 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_deepslate_wall_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-12-01 03:01:41 +0000"
     },
     "done": true
   },
+  "iceandfire:recipes/misc/dragon_ice_spikes": {
+    "criteria": {
+      "has_item": "2024-12-01 03:19:43 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/polished_cut_deepslate_stairs_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-12-01 03:01:41 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/food/frost_stew": {
+    "criteria": {
+      "has_item": "2024-12-01 03:18:09 +0000"
     },
     "done": true
   },
